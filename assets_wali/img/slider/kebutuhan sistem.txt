@@ -1,0 +1,26 @@
+bagian admin
+menu dashboad - total pelamar, diterima, proses, ditolak
+menu data rekrutmen berisi : lowongan kerja(tanggal mulai-tgl berakhir, bagian, persyaratan pelamar, kriteria), data pelamar(nama.tgl lahir, no telp, jenis kelamin, sttus pernikahan, agama, email,alamat, berkas lamaran(bisa di download)), jadwal tes(tgl wawancara, waktu, tmpt wawancara), daftar pelamar, daftar pelamar seleksi, status pelamar(nama, tgl lahir, telp, status perniahan, jenis kelamin,agama, email,status(lolos/tidak lolos)kirim surat))
+menu report hasil pelamar yg lulus tes
+menu data master berisi menu user (nama lowongan, bagian, maks usia,min pendidikan, status), 
+menu logout dibagian kanan atas 
+
+bagian pelamar 
+menu dashboard - lowongan yg tersedia, lamaran saya, lolos seleksi,sedang diproses
+menu personal data berisi data pribadi 
+menu logout dibagian kanan atas
+
+bagian kepala sekolah
+menu dashboard - lowongan tersedia, calon pelamar, pelamar diterima, pelamar tidak diterima
+calon pelamar
+pelamar diterima
+pelamar tidak diterima
+
+dibawah itu ada menu laporan 
+pelamar diterima 
+pelamar tdk diterima
+menu pelamar - nama lowongan, nama pelamar, email, no hp, status lamaran, tgl apply, action(detail berisi data calon pelamar (ada lihat cv dan download cv))
+menu logout dibagian kanan atas
+
+
+maps https://www.google.com/maps/dir/-6.2399913,107.0657552/smk+al+muhtadin+bekasi/@-6.2820932,106.9428756,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x2e6993b44246b5b5:0x14230a9f8fa3c313!2m2!1d106.9821386!2d-6.32652?entry=ttu
