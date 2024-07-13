@@ -22,8 +22,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
  <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
       <div id="ensign-nivoslider" class="slides">
-        <img src="<?= $base_url?>assets_wali/img/slider/foto pataka.jpeg" alt="" title="#slider-direction-1" />
+        <img src="<?= $base_url?>assets_wali/img/slider/poltek.jpg" alt="" title="#slider-direction-1" />
         <img src="<?= $base_url?>assets_wali/img/slider/gambar.jpg" alt="" title="#slider-direction-2" />
+        <img src="<?= $base_url?>assets_wali/img/slider/gambar.jpg" alt="" title="#slider-direction-3" />
         <img src="<?= $base_url?>assets_wali/img/slider/gambar.jpg" alt="" title="#slider-direction-3" />
       </div>
 
