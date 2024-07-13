@@ -8,17 +8,17 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <h2><span>E</span>-SLB</h2>
+                  <h2><span>UKK UKM </span>Poltek GT</h2>
                 </div>
 
-                <p>Silahkan Masuk ke admin jika anda adalah admin dari website ini</p>
+                <p>Silahkan Login terlebih dahulu</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
                       <a href="<?= $base_url ?>admin/login.php"><i class="fa fa-users"></i> </a>
                     </li>
                     <br>
-                    <a href="<?= $base_url ?>admin/login.php"></a>Login Admin
+                    <a href="<?= $base_url ?>admin/login.php"></a>Login 
 
                   </ul>
                 </div>
