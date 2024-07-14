@@ -38,7 +38,7 @@ include("../include/koneksi.php");
       <div class="main-sidebar">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <img src="<?= $base_url ?>assets/img/logoslb.png" width = "80px" alt="" class = "mt-3">
+            <img src="<?= $base_url ?>assets/img/logosl.png" width = "80px" alt="" class = "mt-3">
             <br>
             <a href="" class = "">Pusat UKK UKM Poltek GT</a>
           </div>
