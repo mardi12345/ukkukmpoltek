@@ -11,7 +11,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= $base_url ?>assets/img/logoslb.png" rel="icon">
+  <link href="<?= $base_url ?>assets/img/logosl.png" rel="icon">
   <link href="<?= $base_url ?>assets_wali/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link rel="stylesheet" href="<?= $base_url ?>assets/datatables/datatables.min.css">
     <link rel="stylesheet" href="<?= $base_url ?>assets/datatables/dataTables.bootstrap4.min.css">
