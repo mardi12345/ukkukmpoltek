@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <link rel="shortcut icon" href="<?= $base_url ?>assets/img/logosl.png" type="image/x-icon">
-    <title>Aplikasi Sekolah Luar Biasa</title>
+    <title>UKK UKM Poltek GT</title>
 
     <!-- General CSS Files -->
    
