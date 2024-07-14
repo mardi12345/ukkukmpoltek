@@ -13,7 +13,7 @@ if (isset($_POST['update'])) {
     $no_telp = $_POST['no_telp'];
     $email = $_POST['email'];
     $username = $_POST['username'];
-    $password = md5($_POST['password']);
+    $password = $_POST['password'];
 
     $query_jumlah = "SELECT * FROM tbl_wali_murid WHERE id_murid = $id_murid";
     $result_jumlah = mysqli_query($conn, $query_jumlah);

@@ -10,7 +10,7 @@ if (isset($_POST['insert'])) {
   $email_users = $_POST['email_users'];
   $no_telp_users = $_POST['no_telp_users'];
   $username = $_POST['username'];
-  $password = md5($_POST['password']);
+  $password = $_POST['password'];
   $status = 'aktiv';
   $hak_akses = 'admin';
   $query = "INSERT INTO `tbl_users`(`nama_users`, `alamat_users`, `email_users`, `no_telp_users`, `hak_akses`, `username`, `password`, `status`) VALUES ('$nama_users','$alamat_users','$email_users','$no_telp_users','$hak_akses','$username','$password','$status')";
