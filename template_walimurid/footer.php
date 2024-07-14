@@ -11,7 +11,7 @@
                   <h2><span>UKK UKM </span>Poltek GT</h2>
                 </div>
 
-                <p>Silahkan Login terlebih dahulu</p>
+                <p>Anda Ketua Organisasi Atau Admin? - Login Dibawah.</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
@@ -36,7 +36,7 @@
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="copyright text-center">
               <p>
-                &copy; Copyright <strong>E-SLB</strong>. All Rights Reserved | Repost by <a href='https:///' title='' target='_blank'></a>
+                &copy; Copyright <strong> UKK UKM Poltek GT </strong>. All Rights Reserved <a href='https:///' title='' target='_blank'></a>
 
               </p>
             </div>
