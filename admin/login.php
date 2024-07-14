@@ -93,7 +93,7 @@ include('../include/koneksi.php');
                         </div>
 
                         <div class="simple-footer">
-                            Copyright &copy; Aplikasi Sekolah Luar Biasa
+                            Copyright &copy; UKK UKM Poltek GT
                         </div>
                     </div>
                 </div>
