@@ -36,7 +36,7 @@ if (isset($_POST['insert'])) {
         $no_telp = $_POST['no_telp'];
         $email = $_POST['email'];
         $username = $_POST['username'];
-        $password = md5($_POST['password']);
+        $password = $_POST['password'];
 
 
         $query = "INSERT INTO `tbl_wali_murid`(`nama_ayah`, `nama_ibu`, `pekerjaan_ayah`, `pekerjaan_ibu`, `alamat`, `no_telp`, `email`, `username`, `password`, `id_murid`) VALUES ('$nama_ayah','$nama_ibu','$pekerjaan_ayah','$pekerjaan_ibu','$alamat','$no_telp','$email','$username','$password','$id_murid')";

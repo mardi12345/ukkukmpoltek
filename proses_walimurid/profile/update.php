@@ -13,7 +13,7 @@ if (isset($_POST['update'])) {
     $no_telp = $_POST['no_telp'];
     $email = $_POST['email'];
     $username = $_POST['username'];
-    $password = md5($_POST['password']);
+    $password = $_POST['password'];
 
     
     $query = "UPDATE `tbl_wali_murid` SET `nama_ayah`='$nama_ayah',`nama_ibu`='$nama_ibu',`pekerjaan_ayah`='$pekerjaan_ayah',`pekerjaan_ibu`='$pekerjaan_ibu',`alamat`='$alamat',`no_telp`='$no_telp',`email`='$email',`username`='$username',`password`='$password' WHERE id_wali_murid = $id_wali_murid";
