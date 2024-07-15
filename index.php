@@ -121,7 +121,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
-              <h2>Tentang Kami</h2>
+              <h2>UKK UKM POLTEK GT</h2>
             </div>
           </div>
         </div>
@@ -148,6 +148,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 </a>
                 <p>
                     <?= $data_profile['deskripsi']?>
+
                 </p>
                 <h4 class="sec-head">Visi</h4>
                 <p>
@@ -156,6 +157,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 <h4 class="sec-head">Misi</h4>
                 <p>
                   <?=$data_profile['misi']?>
+                  tesssss mas
                 </p>
                 <ul>
 
