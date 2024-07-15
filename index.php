@@ -98,7 +98,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">UKK Drumband</h1>
+                  <h1 class="title1" style="color:white;">UKK DRUMBAND</h1>
                 </div>
 
 
@@ -118,7 +118,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
     </div>
   </div><!-- End Slider -->
 
-  <!-- direction 3 -->
+  <!-- direction 4 -->
   <div id="slider-direction-4" class="slider-direction slider-two">
         <div class="container">
           <div class="row">
@@ -126,7 +126,36 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">UKM VollyBall</h1>
+                  <h1 class="title1" style="color:white;">UKM VOLLYBALL</h1>
+                </div>
+
+
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <?php if( $id_wali_murid  == ''){?>
+
+                  <?php }else{ ?>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                  <?php }?>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Slider -->
+
+  
+  <!-- direction 5-->
+  <div id="slider-direction-5" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1" style="color:white;">UKM BADMINTON</h1>
                 </div>
 
 
