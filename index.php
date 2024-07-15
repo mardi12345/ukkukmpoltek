@@ -40,7 +40,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
                   <h2 class="title1">PUSAT UKK UKM POLTEK - GT </h2>
-                  <br><center><p> KELOMPOK 4 - ELEKTRONIKA B</p></center>
+                  <br><center style="color:white"<p>KELOMPOK 4 - ELEKTRONIKA B</p></center>
 
                 </div>
                 <!-- layer 2 -->
