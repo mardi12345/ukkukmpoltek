@@ -300,7 +300,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline services-head text-center">
-              <h2>Alur Proses Monitoring</h2>
+              <h2>Alur Proses Pendaftaran UKK & UKM</h2>
             </div>
           </div>
         </div>
