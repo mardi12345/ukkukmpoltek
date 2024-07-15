@@ -265,21 +265,24 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <div class="well-middle">
               <div class="single-well">
                 <a href="#">
-                  <h4 class="sec-head">Profile</h4>
+                  <h4 class="sec-head">Macam macam UKK & UKM di Politeknik Gajah Tunggal</h4>
                 </a>
-                <p>
-                    <?= $data_profile['deskripsi']?>
 
-                </p>
-                <h4 class="sec-head">Visi</h4>
-                <p>
-                  <?=$data_profile['visi']?>
-                </p>
-                <h4 class="sec-head">Misi</h4>
-                <p>
-                  <?=$data_profile['misi']?>
-                  tesssss mas
-                </p>
+                <h4 class="sec-head">UKK :</h4>
+                <p>1. PATAKA (Pasukan Tanda Kehormatan)</p>
+                <p>2. DRUMBAND</P>
+                <P>3. PADUS (Paduan Suara)</p>
+
+                
+                <h4 class="sec-head">UKM :</h4>
+                <p>1. VOLLYBALL</p>
+                <p>2. BADMINTON</p>
+                <p>3. FUTSAL</p>
+                <p>4. BASKET</p>
+                <p>5. KOPMA (Koperasi Mahasiswa)</p>
+                <p>6. ROHIS (Rohani Islam)</p>
+                <p>7. ROHKRIS (Rohani Kristen)</p>
+                 
                 <ul>
 
                 </ul>
