@@ -45,7 +45,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 </div>
                 <!-- layer 2 -->
                 <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title2">Selamat Datang di WEB PUSAT UKK & UKM POLTEK-GT </h1>
+                  <h1 class="title2">Selamat Datang di WEB PUSAT UKK & UKM POLTEK-GT </h1> 
                 </div>
                 <!-- layer 3 -->
                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
@@ -69,12 +69,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content text-center">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1">Silahkan Daftar UKK dan UKM</h1>
+                  <h1 class="title1" style="color:white;" >UKK PATAKA</h1>
                 </div>
-                <!-- layer 2 -->
-                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h2 class="title2">Dengan Cepat dan Mudah</h2>
-                </div>
+                
                 <!-- layer 3 -->
                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
                   <?php if( $id_wali_murid  == ''){?>
@@ -97,12 +94,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Ikuti Petunjuk Yang Ada </h2>
+                  <h1 class="title1" style="color:white;">UKK Drumband</h1>
                 </div>
-                <!-- layer 2 -->
-                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h1 class="title2">Lebih Cepat, Lebih baik dan Bisa Dimonitoring Dari Rumah</h1>
-                </div>
+
                 <!-- layer 3 -->
                 <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
                   <?php if( $id_wali_murid  == ''){?>
