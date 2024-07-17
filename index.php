@@ -32,6 +32,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
         <img src="<?= $base_url?>assets_wali/img/slider/bultang.png" alt="" title="#slider-direction-8" />
         <img src="<?= $base_url?>assets_wali/img/slider/futsal.png" alt="" title="#slider-direction-9" />
         <img src="<?= $base_url?>assets_wali/img/slider/kopma.png" alt="" title="#slider-direction-10" />
+        <img src="<?= $base_url?>assets_wali/img/slider/basket.png" alt="" title="#slider-direction-11" />
       </div>
 
       <!-- direction 1 -->
