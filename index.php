@@ -421,9 +421,10 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                                 <a class="services-icon" href="#">
                                 <img src="<?= $base_url ?>assets/img/alur/<?= $row['gambar_alur']?>" alt="" style = "height: 113px; width: 142px;">
                                 </a>
-                                <h4><?= $row['judul']?></h4>
+                                <h4><?= $row['judul']?>  </h4>
                                 <p>
-                                <?= $row['deskripsi']?>
+                                <?= $row['deskripsi']?> 
+                                
                                 </p>
                             </div>
                             </div>
