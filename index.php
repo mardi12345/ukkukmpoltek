@@ -225,11 +225,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">UKM KOPMA</h1>
+                  <h1 class="title1" style="color:white;">UKM VOLLYBALL</h1>
                 </div>
-                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">(Koperasi Mahasiswa)</h1>
-                </div>
+                
 
 
                 <!-- layer 3 -->
