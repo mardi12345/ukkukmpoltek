@@ -415,7 +415,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 <p>5. KOPMA (Koperasi Mahasiswa)</p>
                 <p>6. ROHIS (Rohani Islam)</p>
                 <p>7. ROHKRIS (Rohani Kristen)</p>
-                 
+              
                 <ul>
 
                 </ul>
@@ -485,8 +485,6 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             $query = "SELECT * FROM tbl_galeri";
             $galeri = mysqli_query($conn, $query);
             $no = 1;
-
-
             while($row = mysqli_fetch_assoc($galeri)) { ?>
 
                 <div class="col-md-4 col-sm-4 col-xs-12 design development">
