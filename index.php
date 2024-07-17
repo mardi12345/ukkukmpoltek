@@ -503,7 +503,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="single-well">
                 <h4>Information</h4>
                 <p>
-                Aplikasi SLB Negeri Cendono Kudus
+                Politeknik Gajah Tunggal
                 </p>
                 <div class="single-well">
                   <p><span>Alamat</span> Jl. Madu No 01 RT 05 RW 01 , Cendono, Kec. Dawe, Kab. Kudus Prov. Jawa Tengah</p>
