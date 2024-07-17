@@ -129,8 +129,13 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">UKM VOLLYBALL</h1>
+                  <h1 class="title1" style="color:white;">UKK PADUS</h1>
                 </div>
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1" style="color:white;">(Paduan Suara)</h1>
+                </div>
+
+
 
 
                 <!-- layer 3 -->
@@ -158,7 +163,10 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">UKM BADMINTON</h1>
+                  <h1 class="title1" style="color:white;">UKM ROHIS</h1>
+                </div>
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1" style="color:white;">(Rohani Islam)</h1>
                 </div>
 
 
@@ -186,7 +194,10 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">UKM FUTSAL</h1>
+                  <h1 class="title1" style="color:white;">UKM ROHKRIS</h1>
+                </div>
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1" style="color:white;">(Rohani Kristen)</h1>
                 </div>
 
 
@@ -214,11 +225,99 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <div class="slider-content">
                 <!-- layer 1 -->
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1" style="color:white;">UKM VOLLYBALL</h1>
+                </div>
+                
+
+
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <?php if( $id_wali_murid  == ''){?>
+
+                  <?php }else{ ?>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                  <?php }?>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Slider -->
+
+  <!-- direction 8-->
+  <div id="slider-direction-8" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1" style="color:white;">UKM BADMINTON</h1>
+                </div>
+                
+
+
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <?php if( $id_wali_murid  == ''){?>
+
+                  <?php }else{ ?>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                  <?php }?>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Slider -->
+
+  <!-- direction 9-->
+  <div id="slider-direction-9" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1" style="color:white;">UKM FUTSAL</h1>
+                </div>
+                
+
+
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
+                  <?php if( $id_wali_murid  == ''){?>
+
+                  <?php }else{ ?>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                  <?php }?>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Slider -->
+
+  <!-- direction 10-->
+  <div id="slider-direction-10" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
                   <h1 class="title1" style="color:white;">UKM KOPMA</h1>
                 </div>
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
                   <h1 class="title1" style="color:white;">(Koperasi Mahasiswa)</h1>
                 </div>
+                
 
 
                 <!-- layer 3 -->
