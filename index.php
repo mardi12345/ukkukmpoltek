@@ -506,8 +506,8 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 Politeknik Gajah Tunggal
                 </p>
                 <div class="single-well">
-                  <p><span>Alamat</span> Jl. Madu No 01 RT 05 RW 01 , Cendono, Kec. Dawe, Kab. Kudus Prov. Jawa Tengah</p>
-                  <p><span>Jam Kerja:</span> 07.00 - 15.00</p>
+                  <p><span>Alamat: Kompleks Industri Gajah Tunggal, Jl. Gatot Subroto KM.7, Pasir Jaya, Jatiuwung, Tangerang, Banten.</p></span>
+                  
                 </div>
               </div>
             </div>
