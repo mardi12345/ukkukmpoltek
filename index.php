@@ -166,7 +166,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <h1 class="title1" style="color:white;">UKM ROHIS</h1>
                 </div>
                 <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title1" style="color:white;">(Rohani Kristen)</h1>
+                  <h1 class="title1" style="color:white;">(Rohani Islam)</h1>
                 </div>
 
 
