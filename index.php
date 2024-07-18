@@ -452,13 +452,13 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             </ul>
             <h4 class="sec-head">UKM :</h4>
             <ul>
-              <li>VOLLYBALL</li>
-              <li>BADMINTON</li>
-              <li>FUTSAL</li>
-              <li>BASKET</li>
-              <li>KOPMA (Koperasi Mahasiswa)</li>
-              <li>ROHIS (Rohani Islam)</li>
-              <li>ROHKRIS (Rohani Kristen)</li>
+              <li>1. VOLLYBALL</li>
+              <li>2. BADMINTON</li>
+              <li>3. FUTSAL</li>
+              <li>4. BASKET</li>
+              <li>5. KOPMA (Koperasi Mahasiswa)</li>
+              <li>6. ROHIS (Rohani Islam)</li>
+              <li>7. ROHKRIS (Rohani Kristen)</li>
             </ul>
           </div>
         </div>
