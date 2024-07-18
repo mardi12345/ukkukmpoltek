@@ -636,6 +636,8 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                     <span> Badminton : @badminton.pgt</span>
                     <br>
                     <span> Futsal : @bolafutsal_pgt</span>
+                    <br>
+                    <span> Rohis : @ldkkmpgt</span>
                   </p>
                 </div>
               </div>
