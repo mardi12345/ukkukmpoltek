@@ -621,9 +621,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="contact-icon text-center">
                 <div class="single-icon">
-                  <i class="fa fa-mobile"></i>
+                  <i class="fa fa-instagram"></i>
                   <p>
-                    No telepon
+                    Instagram
                     <br>
                     <span><?= $data_profile['no_hp'] ?></span>
                   </p>
@@ -636,8 +636,8 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 <div class="single-icon">
                   <i class="fa fa-envelope-o"></i>
                   <p>
-                    Email: <?= $data_profile['email']?><br>
-                    <span>Facebook: <?= $data_profile['facebook']?></span>
+                    Email: ukkukmpoltek@pgt.com<br>
+                    <span>Facebook: Politeknik Gajah Tunggal <br> UKK UKM Poltek GT</span>
                   </p>
                 </div>
               </div>
