@@ -450,7 +450,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               <li>2. DRUMBAND</li>
               <li>3. PADUS (Paduan Suara)</li>
             </ul>
-            <h4 class="sec-head">UKM :</h4>
+            <h4 class="sec-head">UKM (UNIT KEGIATAN MAHASISWA): </h4>
             <ul>
               <li>1. VOLLYBALL</li>
               <li>2. BADMINTON</li>
