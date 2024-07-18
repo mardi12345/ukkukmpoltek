@@ -639,7 +639,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                     <br>
                     <span> Paduan Suara : @psm_pgt </span>
                     <br>
-                    <span> Kopma : @kopma_pgt </span>
+                    <span> Koperasi Mahasiswa : @kopma_pgt </span>
                     <br>
                     <span> Badminton : @badminton.pgt</span>
                     <br>
