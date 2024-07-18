@@ -29,7 +29,6 @@ $nama_ayah = $_SESSION['nama_ayah'];
           <li><a href="<?= $base_url ?>#blog">Information</a></li>
           <li><a href="<?= $base_url ?>#contact">Contact</a></li>
           <li><a href="<?= $base_url?>walimurid/konsultasi.php">Konsultasi</a></li>
-          <li><a href="<?= $base_url?>walimurid/monitoring.php">Monitoring</a></li>
           <li><a href="<?= $base_url?>walimurid/laporan.php">Laporan</a></li>
           <?php if( $id_wali_murid  == ''){?>
             <li><a href="<?= $base_url?>walimurid/login.php">Login</a></li>
