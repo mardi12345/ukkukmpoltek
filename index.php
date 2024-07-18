@@ -625,7 +625,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <p>
                     Instagram
                     <br>
-                    <span><?= $data_profile['no_hp'] ?></span>
+                    <span> Pataka : @pataka_poltekgt </span> 
+                    <br>
+                    <span> Drumband : @drumband_poltekgt </span>
                   </p>
                 </div>
               </div>
