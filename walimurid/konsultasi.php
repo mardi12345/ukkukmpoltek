@@ -36,10 +36,8 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                                 <th width = "5%">No.</th>
                                 <th>Tanggal</th>
                                 <th>Waktu</th>
-                                <th>Konsultasi</th>
-                                <th>Status Konsultasi</th>
-                                <th>Jawaban</th>
-                                <th>Nama Guru</th>
+                                <th>Organisasi Pilihan</th>
+                                <th>Alasan</th>
                                 <th class="text-center" width = "20%">Action</th>
                             </tr>
                         </thead>
@@ -55,9 +53,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                                     <td><?= $row['tanggal_konsultasi']?></td>
                                     <td><?= $row['jam_konsultasi']?></td>
                                     <td><?= $row['konsultasi']?></td>
-                                    <td><?= $row['status_konsultasi']?></td>
                                     <td><?= $row['jawaban_konsultasi']?></td>
-                                    <td><?= $row['nama_users']?></td>
                                     <?php if ( $row['status_konsultasi'] != 'approve') { ?>
                                         <td class ="text-center"> 
                                             <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_konsultasi'] ?>">
@@ -108,7 +104,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             </div>
         </div>
         <div class="form-group">
-            <label for="">Pertanyaan Konsultasi</label>
+            <label for="">Organisasi Pilihan</label>
             <textarea name="konsultasi" class = "form-control" id="" cols="30" rows="5" required></textarea>
         </div>
     
@@ -154,8 +150,8 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             </div>
         </div>
         <div class="form-group">
-            <label for="">Keterangan Konsultasi</label>
-            <textarea name="konsultasi" class = "form-control" id="" cols="30" rows="5" required value = "<?= $row['konsultasi']?>"><?= $row['konsultasi']?></textarea>
+            <label for="">Organisasi Pilihan</label>
+            <textarea name="konsultasi" class = "form-control" id="" cols="30" rows="5" required><?= $row['konsultasi']?></textarea>
         </div>
         </div>
           <div class="modal-footer">
