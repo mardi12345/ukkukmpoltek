@@ -385,11 +385,17 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <div class="well-left">
               <div class="single-well">
                 <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/<?= $data_profile['gambar_sekolah']?>" alt="" style = "width : 500px">
-                </a> <br>
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/<?= $data_profile['gambar_sekolah']?>" alt="" style = "width : 300px">
+                </a> 
+                <br>
                 <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/<?= $data_profile['gambar_sekolah']?>" alt="" style = "width : 500px">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/  " alt="" style = "width : 300px">
                 </a>
+                <br>
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/ " alt="" style = "width : 300px">
+                </a>
+                <br>
               </div>
             </div>
           </div>
