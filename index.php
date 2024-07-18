@@ -421,7 +421,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 </a>
                 <br>
                 <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/rohis.jpg" alt="" style = "width : 200px">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/rohkris.jpg" alt="" style = "width : 200px">
                 </a>
                 <br>
               </div>
