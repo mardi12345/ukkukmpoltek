@@ -649,7 +649,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <i class="fa fa-map-marker"></i>
                   <p>
                     Alamat<br>
-                    <span><?= $data_profile['alamat']?></span>
+                    <span>Kompleks Industri Gajah Tunggal, Jl. Gatot Subroto KM.7, Pasir Jaya, Jatiuwung, Tangerang, Banten.</span>
                   </p>
                 </div>
               </div>
