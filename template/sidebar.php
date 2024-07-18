@@ -43,7 +43,7 @@ include("../include/koneksi.php");
             <a href="" class = "">Pusat UKK UKM Poltek GT</a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="index.html">RA</a>
+            <a href="dashboard.php">UKK UKM</a>
           </div>
           <!-- Sidebar Untuk Admin -->
             <?php if($_SESSION['hak_akses'] == 'admin'){?>
