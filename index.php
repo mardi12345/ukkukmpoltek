@@ -661,10 +661,10 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <div class="col-md-6 col-sm-6 col-xs-12">
               <!-- Start Map
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126793.21272542517!2d110.78074555689334!3d-6.734689099032863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70da49ade9b15b%3A0xec9dd8b53ffdb5b3!2sSLB%20Negeri%20Cendono%20Kudus!5e0!3m2!1sen!2sid!4v1696773166016!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="380" id="gmap_canvas" src="https://maps.google.com/maps?q=politeknik%20gajah%20tunggal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
               <!-- End Map -->
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-12"> 
             <div class="well-middle">
               <div class="single-well">
                 <h4>Information</h4>
