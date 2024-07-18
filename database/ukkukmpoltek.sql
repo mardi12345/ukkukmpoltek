@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Jul 2024 pada 07.00
+-- Waktu pembuatan: 18 Jul 2024 pada 04.41
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.0.30
 
@@ -82,6 +82,7 @@ CREATE TABLE `tbl_galeri` (
 --
 
 INSERT INTO `tbl_galeri` (`id_galeri`, `galeri_gambar`) VALUES
+(8, 'kantin.jpg'),
 (17, '388-WhatsApp Image 2023-10-07 at 22.04.36 (1).jpeg'),
 (19, '364-WEB-LIA.jpg'),
 (21, '218-WhatsApp Image 2023-10-07 at 22.04.36.jpeg');
@@ -175,7 +176,8 @@ CREATE TABLE `tbl_konsultasi` (
 --
 
 INSERT INTO `tbl_konsultasi` (`id_konsultasi`, `tanggal_konsultasi`, `jam_konsultasi`, `konsultasi`, `status_konsultasi`, `jawaban_konsultasi`, `id_users`, `id_wali_murid`) VALUES
-(8, '2023-11-25', '21:15:00', 'sadsd', 'approve', 'sadsdadasd', 7, 8);
+(8, '2023-11-25', '21:15:00', 'sadsd', 'approve', 'sadsdadasd', 7, 8),
+(9, '0000-00-00', '07:59:00', 'hello there\r\n', 'diajukan', NULL, 7, 8);
 
 -- --------------------------------------------------------
 
@@ -369,12 +371,12 @@ CREATE TABLE `tbl_users` (
 --
 
 INSERT INTO `tbl_users` (`id_users`, `nama_users`, `alamat_users`, `email_users`, `no_telp_users`, `hak_akses`, `username`, `password`, `status`) VALUES
-(1, 'admin', 'admin', 'admin@gmail.com', '56464', 'admin', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'aktiv'),
-(2, 'admin2 sad sadad', 'admin2', 'admin2@gmail.com', '38924829', 'admin', 'admin2', 'c84258e9c39059a89ab77d846ddab909', 'aktiv'),
-(3, 'Kepala sekolah', 'Kepala Sekolah', 'kepalasekolah@gmail.com', '08888838383393', 'kepala sekolah', 'kepalasekolah', 'ad9e9366bd65e665fa808da635512230', 'aktiv'),
+(1, 'admin', 'admin', 'admin@gmail.com', '56464', 'admin', 'admin', 'admin', 'aktiv'),
+(2, 'admin2 sad sadad', 'admin2', 'admin2@gmail.com', '38924829', 'admin', 'admin2', 'admin2', 'aktiv'),
+(3, 'Kepala sekolah', 'Kepala Sekolah', 'kepalasekolah@gmail.com', '08888838383393', 'kepala sekolah', 'kepalasekolah', 'kepala', 'aktiv'),
 (5, 'test', 'test', 'test@gmail.com', '453534345', 'admin', 'test', '098f6bcd4621d373cade4e832627b4f6', 'non-aktiv'),
 (6, 'update', 'yogyakarta', 'test@gmail.com', '85912628', 'admin', 'dsfdsf', 'b0dc8efe2d5326a92982ce4e6535c97e', 'non-aktiv'),
-(7, 'guru', 'teste', 'guru@gmail.com', '983243289', 'guru', 'guru', '77e69c137812518e359196bb2f5e9bb9', 'aktiv'),
+(7, 'guru', 'teste', 'guru@gmail.com', '983243289', 'guru', 'guru', 'guru', 'aktiv'),
 (8, 'sadsa', 'Menco, Berahan Wetan, Wedung,', 'zahwatulizzah@gmail.com', '081229677253', 'guru', 'as', '4d18db80e353e526ad6d42a62aaa29be', 'non-aktiv'),
 (9, 'guru 2', 'Menco, Berahan ', 'guru@gmail.com', '32423432', 'guru', 'guru2', '440a21bd2b3a7c686cf3238883dd34e9', 'aktiv');
 
@@ -403,7 +405,7 @@ CREATE TABLE `tbl_wali_murid` (
 --
 
 INSERT INTO `tbl_wali_murid` (`id_wali_murid`, `nama_ayah`, `nama_ibu`, `pekerjaan_ayah`, `pekerjaan_ibu`, `alamat`, `no_telp`, `email`, `username`, `password`, `id_murid`) VALUES
-(8, 'sayaA', 'saya', 'saya', 'saya', 'saya', '085326719122', 'saya@gmail.com', 'saya', '20c1a26a55039b30866c9d0aa51953ca', 12),
+(8, 'sayaA', 'saya', 'saya', 'saya', 'saya', '085326719122', 'saya@gmail.com', 'saya', 'saya', 12),
 (9, 'jjjjjjjjjjjjjjjjj', 'kkkkkkkkkkk', 'jjjjjjjjjjj', 'uuuuuuu', 'jjjjjjjjjjjjjjjjjjj', 'ttttttttttttttt', 'kkkkkkkkkk@gmail.com', 'akumaukamu', '25d55ad283aa400af464c76d713c07ad', 13);
 
 --
@@ -564,7 +566,7 @@ ALTER TABLE `tbl_kelas`
 -- AUTO_INCREMENT untuk tabel `tbl_konsultasi`
 --
 ALTER TABLE `tbl_konsultasi`
-  MODIFY `id_konsultasi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_konsultasi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT untuk tabel `tbl_laporan_belajar`
