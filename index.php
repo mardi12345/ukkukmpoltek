@@ -446,9 +446,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <h4 class="sec-head">Macam macam UKK & UKM di Politeknik Gajah Tunggal</h4>
             <h4 class="sec-head">UKK :</h4>
             <ul>
-              <li>PATAKA (Pasukan Tanda Kehormatan)</li>
-              <li>DRUMBAND</li>
-              <li>PADUS (Paduan Suara)</li>
+              <li>1. PATAKA (Pasukan Tanda Kehormatan)</li>
+              <li>2. DRUMBAND</li>
+              <li>3. PADUS (Paduan Suara)</li>
             </ul>
             <h4 class="sec-head">UKM :</h4>
             <ul>
