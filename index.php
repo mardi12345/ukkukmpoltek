@@ -370,96 +370,104 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <div id="about" class="about-area area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>UKK UKM POLTEK GT</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- single-well start-->
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-left">
-              <div class="single-well">
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/pataka.jpg" alt="" style = "width : 200px">
-                </a> 
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/drumband.jpg" alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/padus.jpg " alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/volly.jpg " alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/bultang.jpg" alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/futsal.jpg" alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/basket.jpg" alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/kopma.jpg" alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/rohis.jpg" alt="" style = "width : 200px">
-                </a>
-                <br>
-                <a href="#">
-                  <img src="<?= $base_url ?>assets/img/profile_sekolah/rohkris.jpg" alt="" style = "width : 200px">
-                </a>
-                <br>
-              </div>
-            </div>
-          </div>
-          <!-- single-well end-->
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-middle">
-              <div class="single-well">
-                <a href="#">
-                  <h4 class="sec-head">Macam macam UKK & UKM di Politeknik Gajah Tunggal</h4>
-                </a>
-
-                <h4 class="sec-head">UKK :</h4>
-                <p>1. PATAKA (Pasukan Tanda Kehormatan)</p>
-                <p>2. DRUMBAND</P>
-                <P>3. PADUS (Paduan Suara)</p>
-
-                
-                <h4 class="sec-head">UKM :</h4>
-                <p>1. VOLLYBALL</p>
-                <p>2. BADMINTON</p>
-                <p>3. FUTSAL</p>
-                <p>4. BASKET</p>
-                <p>5. KOPMA (Koperasi Mahasiswa)</p>
-                <p>6. ROHIS (Rohani Islam)</p>
-                <p>7. ROHKRIS (Rohani Kristen)</p>
-              
-                <ul>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- End col-->
+<div id="about" class="about-area area-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="section-headline text-center">
+          <h2>UKK UKM POLTEK GT</h2>
         </div>
       </div>
-    </div><!-- End About Section -->
+    </div>
+    <div class="row">
+      <!-- single-well start-->
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="well-left">
+          <div class="single-well">
+            <div class="row">
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/pataka.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/drumband.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/padus.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/volly.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/bultang.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/futsal.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/basket.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/kopma.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/rohis.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+              <div class="col-xs-6 col-sm-4 col-md-3">
+                <a href="#">
+                  <img src="<?= $base_url ?>assets/img/profile_sekolah/rohkris.jpg" alt="" class="img-thumbnail" style="width: 100%;">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- single-well end-->
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="well-middle">
+          <div class="single-well">
+            <h4 class="sec-head">Macam macam UKK & UKM di Politeknik Gajah Tunggal</h4>
+            <h4 class="sec-head">UKK :</h4>
+            <ul>
+              <li>PATAKA (Pasukan Tanda Kehormatan)</li>
+              <li>DRUMBAND</li>
+              <li>PADUS (Paduan Suara)</li>
+            </ul>
+            <h4 class="sec-head">UKM :</h4>
+            <ul>
+              <li>VOLLYBALL</li>
+              <li>BADMINTON</li>
+              <li>FUTSAL</li>
+              <li>BASKET</li>
+              <li>KOPMA (Koperasi Mahasiswa)</li>
+              <li>ROHIS (Rohani Islam)</li>
+              <li>ROHKRIS (Rohani Kristen)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End col-->
+    </div>
+  </div>
+</div><!-- End About Section -->
+
 
     <!-- ======= Services Section ======= -->
     <div id="services" class="services-area area-padding">
