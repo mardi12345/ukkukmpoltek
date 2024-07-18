@@ -628,6 +628,8 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                     <span> Pataka : @pataka_poltekgt </span> 
                     <br>
                     <span> Drumband : @drumband_poltekgt </span>
+                    <br>
+                    <span> Paduan Suara : @psm_pgt </span>
                   </p>
                 </div>
               </div>
