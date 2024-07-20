@@ -109,23 +109,17 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
     
 
                   <div class="form-divider">
-                    Wali Murid
+                    Setting Akun
                   </div>
                   <div class="row">
-                    <div class="col-md-6">
-
-                        <div class="form-group">
-                            <label for="">Nama Ibu</label>
-                            <input type="text" name = "nama_ibu" class = "form-control"  required>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Pekerjaan Ayah</label>
-                            <input type="text" name = "pekerjaan_ayah" class = "form-control"  required>
-                        </div>
-                        
+                    <div class="col-md-6">      
                         <div class="form-group">
                             <label for="">Username</label>
                             <input type="text" name = "username" class = "form-control"  required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" name = "password" class = "form-control" required>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -137,14 +131,6 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                         <div class="form-group">
                             <label for="">Email</label>
                             <input type="email" name = "email" class = "form-control" required>
-                        </div>
-                       <div class="form-group">
-                            <label for="">Pekerjaan Ibu</label>
-                            <input type="text" name = "pekerjaan_ibu" class = "form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Password</label>
-                            <input type="password" name = "password" class = "form-control" required>
                         </div>
                        
                     </div>
