@@ -15,7 +15,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
 <div class="blog-page area-padding">
     <div class="container  mt-5">
         <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
-        Tambah Data
+        Tambah Keanggotaan
         </button>
         <div class="card">
             <div class="card-body">
