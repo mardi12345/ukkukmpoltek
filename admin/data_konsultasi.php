@@ -107,11 +107,6 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
                     <option value="ditunda">ditunda</option>
                 </select>
             </div>
-            <input type="hidden" name = "jawaban_konsultasi">
-            <div class="form-group jawaban_konsultasi">
-                <label for="">Jawaban Konsultasi</label>
-                <textarea name="jawaban_konsultasi" class = "form-control " id="" cols="30" rows="10"></textarea>
-            </div>
         </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
