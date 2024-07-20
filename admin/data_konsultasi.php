@@ -38,8 +38,8 @@ $id_kategori = $_SESSION['id_kategori'];
                         <th width = "5%">No.</th>
                         <th>Tanggal</th>
                         <th>Waktu</th>
-                        <th>Konsultasi</th>
-                        <th>Status Konsultasi</th>
+                        <th>Organisasi Pilihan</th>
+                        <th>Status Penerimaan</th>
                         <th>Jawaban Konsultasi</th>
                         <th>Alasan Memilih</th>
                         <th>Wali Kelas</th>
