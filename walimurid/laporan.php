@@ -37,7 +37,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                             <th>Nama Murid</th>
                             <th>Kelas</th>
                             <th>Periode</th>
-                            <th>Wali Murid</th>
+                            <th>Mahasiswa</th>
                             <th>Action</th>
                         </tr>
                         </thead>

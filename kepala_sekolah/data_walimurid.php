@@ -16,7 +16,7 @@ $id_users = $_SESSION['id_users'];
 <div class="main-content">
   <section class="section">
     <div class="section-header">
-      <h1>Data Wali Murid</h1>
+      <h1>Data Mahasiswa</h1>
     </div>
     <?php if (isset($_SESSION['message'])) { ?>
         <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
@@ -80,7 +80,7 @@ $id_users = $_SESSION['id_users'];
                             </div>
                         </div>
                        <div class="col-md-12 mb-2">
-                       <h6>Data Wali Murid</h6>
+                       <h6>Data Mahasiswa</h6>
                        </div>
                         <div class="col-md-6">
                             <div class="form-group">
