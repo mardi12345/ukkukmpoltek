@@ -23,13 +23,12 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 <div class="col-md-12">
     
                 <?php 
-                    // Query untuk mendapatkan data dari tbl_wali_murid dan nama dari tbl_murid
-                    $query = "SELECT wm.*, m.nama AS nama_ayah
+                    // Query untuk mendapatkan data dari tbl_wali_murid dan nama serta nik dari tbl_murid
+                    $query = "SELECT wm.*, m.nama AS nama_ayah, m.nik AS nama_ibu
                               FROM tbl_wali_murid wm
                               JOIN tbl_murid m ON wm.id_murid = m.id_murid
                               WHERE wm.id_wali_murid = $id_wali_murid";
                     $result_tasks = mysqli_query($conn, $query);    
-                    $no = 1;
                     $row =  mysqli_fetch_assoc($result_tasks);
                 ?>
                     <?php if (isset($_SESSION['message'])) { ?>
@@ -43,21 +42,13 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                        <div class="row">
                        <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">Nama Mahasiswa</label>
+                                <label for="">Nama Ayah</label>
                                 <input type="hidden" name="id_wali_murid" value="<?= $row['id_wali_murid']?>">
                                 <input type="text" name="nama_ayah" class="form-control" value="<?= $row['nama_ayah']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Nama Ibu</label>
                                 <input type="text" name="nama_ibu" class="form-control" value="<?= $row['nama_ibu']?>" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Pekerjaan Ayah</label>
-                                <input type="text" name="pekerjaan_ayah" class="form-control" value="<?= $row['pekerjaan_ayah']?>" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Pekerjaan Ibu</label>
-                                <input type="text" name="pekerjaan_ibu" class="form-control" value="<?= $row['pekerjaan_ibu']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Alamat</label>
