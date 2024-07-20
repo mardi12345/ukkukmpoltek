@@ -62,7 +62,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                                             <a href="<?= $base_url ?>proses_walimurid/data_konsultasi/delete.php?id=<?= $row['id_konsultasi'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
                                         </td>
                                     <?php } else { ?>
-                                        <td class="text-center">-</td>
+                                        <td class="text-center"><p class="fas fa-check"></p></td>
                                     <?php } ?>
                                 </tr>
                             <?php } ?>
