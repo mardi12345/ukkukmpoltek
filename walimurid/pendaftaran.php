@@ -42,7 +42,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
             </div>
 
             <div class="card card-primary">
-              <div class="card-header"><h4>Register</h4></div>
+              <div class="card-header"><h4>Daftar Akun Mahasiswa</h4></div>
 
               <div class="card-body">
                 <?php if (isset($_SESSION['message'])) { ?>
@@ -56,7 +56,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                 <form method="POST" action = "<?= $base_url ?>proses_walimurid/pendaftaran/insert.php" enctype='multipart/form-data'>
                   <div class="row">
                     <div class="form-group col-6">
-                      <label for="frist_name">NIK</label>
+                      <label for="frist_name">Nomor Induk Mahasiswa</label>
                       <input id="frist_name" type="text" class="form-control" name="nik" autofocus>
                     </div>
                     <div class="form-group col-6">
