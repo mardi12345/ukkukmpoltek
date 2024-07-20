@@ -37,7 +37,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                                 <th>Tanggal</th>
                                 <th>Waktu</th>
                                 <th>Organisasi Pilihan</th>
-                                <th>Alasan</th>
+                                <th>Alasan Memilih</th>
                                 <th class="text-center" width="20%">Action</th>
                             </tr>
                         </thead>
