@@ -717,7 +717,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
         <form action="<?= $base_url ?>proses_walimurid/quisioner/insert.php" method="post" enctype='multipart/form-data'>
       <div class="modal-body">
         <div class="form-group">
-            <label for="">Apakah sistem monitoring sangat berguna untuk memantau perkembangan belajar ABK?</label>
+            <label for="">Apakah Website Ini membantu Rekan Rekan dalam mengenal UKK UKM Poltek?</label>
             <div class="form-check">
               <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="q1" value = "5">Sangat Setuju
@@ -744,7 +744,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               </label>
             </div>
             <br>
-            <label for="">Apakah sistem ini membantu memberikan informasi mengenai SLB N Cendono?</label>
+            <label for="">Apakah sistem ini membantu memberikan informasi mengenai UKK dan UKM Poltek GT?</label>
             <div class="form-check">
               <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="q2" value = "5">Sangat Setuju
