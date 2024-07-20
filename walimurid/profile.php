@@ -16,7 +16,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
     <div class="container  mt-5">
         <div class="card">
             <div class="card-header">
-                <center><h4>Data Laporan</h4></center>
+                <center><h4>Profile</h4></center>
             </div>
             <div class="card-body">
                 <form action="<?= $base_url ?>proses_walimurid/profile/update.php" method="post">
