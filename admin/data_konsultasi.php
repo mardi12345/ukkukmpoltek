@@ -42,8 +42,6 @@ $id_kategori = $_SESSION['id_kategori'];
                         <th>Status Penerimaan</th>
                         <th>Jawaban Konsultasi</th>
                         <th>Alasan Memilih</th>
-                        <th>Wali Kelas</th>
-                        <th>Nama Wali</th>
                         <th>Nama Murid</th>
                         <th class="text-center" width = "20%">Action</th>
                     </tr>
