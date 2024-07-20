@@ -56,7 +56,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -85,7 +85,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -111,7 +111,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -144,7 +144,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -176,7 +176,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -207,7 +207,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -236,7 +236,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -265,7 +265,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -294,7 +294,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -326,7 +326,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                   <?php if( $id_wali_murid  == ''){?>
 
                   <?php }else{ ?>
-                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner</a>
+                    <a class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#myModal" href="#services">Isi Quisioner Keorganisasian Disini!</a>
                   <?php }?>
                 </div>
               </div>
@@ -711,7 +711,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
 
         <!-- Modal Header -->
         <div class="modal-header">
-          <h4 class="modal-title">Isi Quisioner</h4>
+          <h4 class="modal-title">Isi Quisioner Keorganisasian Disini!</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <form action="<?= $base_url ?>proses_walimurid/quisioner/insert.php" method="post" enctype='multipart/form-data'>
