@@ -771,7 +771,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               </label>
             </div>
             <br>
-            <label for="">Bagaimana dengan desain dari sistemnya apakah mudah dipahami?</label>
+            <label for="">Bagaimana dengan desain dari Web Ini? apakah mudah dipahami?</label>
             <div class="form-check">
               <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="q3" value = "5">Sangat Setuju
