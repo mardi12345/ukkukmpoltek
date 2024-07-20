@@ -33,7 +33,7 @@ $id_periode = $_SESSION['id_periode'];
             <thead>
               <tr>
                 <th>No</th>
-                <th>Wali Murid</th>
+                <th>Mahasiswa</th>
                 <th>Q1</th>
                 <th>Q2</th>
                 <th>Q3</th>
