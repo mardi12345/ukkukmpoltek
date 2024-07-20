@@ -15,7 +15,7 @@ $id_kategori = $_SESSION['id_kategori'];
 <div class="main-content">
   <section class="section">
     <div class="section-header">
-      <h1>Data Konsultasi</h1>
+      <h1>Data Pendaftar</h1>
     </div>
     <!-- <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
       Tambah Data
@@ -41,7 +41,7 @@ $id_kategori = $_SESSION['id_kategori'];
                         <th>Organisasi Pilihan</th>
                         <th>Status Penerimaan</th>
                         <th>Alasan Memilih</th>
-                        <th>Nama Murid</th>
+                        <th>Nama Mahasiswa</th>
                         <th class="text-center" width = "20%">Action</th>
                     </tr>
                 </thead>
