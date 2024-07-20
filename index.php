@@ -798,7 +798,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               </label>
             </div>
             <br>
-            <label for="">Seberapa setuju mengenai pentingnya konsultasi pada sistem?</label>
+            <label for="">Seberapa setuju mengenai pentingnya Pengenalan dan kemudahan dalam UKK UKM Poltek GT?</label>
             <div class="form-check">
               <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="q4" value = "5">Sangat Setuju
