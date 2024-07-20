@@ -153,7 +153,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
               </div>
             </div>
             <div class="simple-footer">
-                Copyright &copy; Aplikasi
+                Copyright &copy; Ukk Poltek Gt Ardi
             </div>
           </div>
         </div>
@@ -228,7 +228,7 @@ error_reporting(0);
                                 <tr>
                                     <td><?= $no++ ?></td>
                                     <td><?= $row['nik']?></td>
-                                    <td><?= $row['nama']?></td>
+                                    <td><?= $row['nama_ayah']?></td>
                                     <td><?= $row['jenis_kelamin']?></td>
                                     <td><?= $row['tempat_lahir']?>, <?= $row['tanggal_lahir']?></td>
                                     <td><?= $row['alamat']?></td>
