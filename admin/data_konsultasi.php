@@ -40,7 +40,6 @@ $id_kategori = $_SESSION['id_kategori'];
                         <th>Waktu</th>
                         <th>Organisasi Pilihan</th>
                         <th>Status Penerimaan</th>
-                        <th>Jawaban Konsultasi</th>
                         <th>Alasan Memilih</th>
                         <th>Nama Murid</th>
                         <th class="text-center" width = "20%">Action</th>
@@ -59,10 +58,7 @@ $id_kategori = $_SESSION['id_kategori'];
                             <td><?= $row['jam_konsultasi']?></td>
                             <td><?= $row['konsultasi']?></td>
                             <td><?= $row['status_konsultasi']?></td>
-                            <td><?= $row['jawaban_konsultasi']?></td>
                             <td><?= $row['alasan_memilih']?></td>
-                            <td><?= $row['nama_users']?></td>
-                            <td><?= $row['nama_ayah']?></td>
                             <td><?= $row['nama']?></td>
                             <?php if ( $row['status_konsultasi'] != 'approve') { ?>
                                 <td class ="text-center"> 
