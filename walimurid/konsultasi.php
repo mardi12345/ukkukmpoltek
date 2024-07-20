@@ -8,8 +8,17 @@ include('../template_walimurid/header.php');
 include('../template_walimurid/navbar.php');
 
 error_reporting(0);
- 
+
 $id_wali_murid = $_SESSION['id_wali_murid'];
+
+// Query untuk mendapatkan organisasi yang sudah dipilih
+$query_organisasi_sudah_pilih = "SELECT DISTINCT konsultasi FROM tbl_konsultasi WHERE id_wali_murid = $id_wali_murid";
+$result_organisasi_sudah_pilih = mysqli_query($conn, $query_organisasi_sudah_pilih);
+
+$organisasi_sudah_pilih = [];
+while ($row = mysqli_fetch_assoc($result_organisasi_sudah_pilih)) {
+    $organisasi_sudah_pilih[] = $row['konsultasi'];
+}
 ?>
 
 <div class="blog-page area-padding">
@@ -104,10 +113,18 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <label for="">Organisasi Pilihan</label>
             <select name="konsultasi" class="form-control" required>
                 <option value="">-- Pilih Organisasi --</option>
-                <option value="PATAKA">PATAKA</option>
-                <option value="Organisasi B">DRUMBAND</option>
-                <option value="Organisasi C">PADUAN SUARA</option>
-                <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
+                <?php 
+                $organisasi_list = [
+                    'PATAKA' => 'PATAKA',
+                    'Organisasi B' => 'DRUMBAND',
+                    'Organisasi C' => 'PADUAN SUARA'
+                ];
+                foreach ($organisasi_list as $value => $text) {
+                    if (!in_array($value, $organisasi_sudah_pilih)) {
+                        echo "<option value=\"$value\">$text</option>";
+                    }
+                }
+                ?>
             </select>
         </div>
         <div class="form-group">
