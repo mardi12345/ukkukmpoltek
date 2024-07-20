@@ -104,9 +104,9 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <label for="">Organisasi Pilihan</label>
             <select name="konsultasi" class="form-control" required>
                 <option value="">-- Pilih Organisasi --</option>
-                <option value="Organisasi A">Organisasi A</option>
-                <option value="Organisasi B">Organisasi B</option>
-                <option value="Organisasi C">Organisasi C</option>
+                <option value="Organisasi A">PATAKA</option>
+                <option value="Organisasi B">DRUMBAND</option>
+                <option value="Organisasi C">PADUAN SUARA</option>
                 <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
             </select>
         </div>
@@ -158,7 +158,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             <div class="form-group">
                 <label for="">Organisasi Pilihan</label>
                 <select name="konsultasi" class="form-control" required>
-                    <option value="Organisasi A" <?= ($row['konsultasi'] == 'Organisasi A') ? 'selected' : '' ?>>PATAKA</option>
+                    <option value="PATAKA" <?= ($row['konsultasi'] == 'PATAKA') ? 'selected' : '' ?>>PATAKA</option>
                     <option value="Organisasi B" <?= ($row['konsultasi'] == 'Organisasi B') ? 'selected' : '' ?>>DRUMBAND</option>
                     <option value="Organisasi C" <?= ($row['konsultasi'] == 'Organisasi C') ? 'selected' : '' ?>>PADUAN SUARA</option>
                     <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
