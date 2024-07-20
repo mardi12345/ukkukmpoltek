@@ -39,10 +39,7 @@ $id_users = $_SESSION['id_users'];
                         <th>Tanggal</th>
                         <th>Waktu</th>
                         <th>Konsultasi</th>
-                        <th>Status Konsultasi</th>
-                        <th>Jawaban Konsultasi</th>
-                        <th>Wali Kelas</th>
-                        <th>Nama Wali</th>
+                        <th>Status Pendaftar</th>
                         <th>Nama Murid</th>
                         <th class="text-center" width = "20%">Action</th>
                     </tr>
@@ -105,7 +102,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
           <input type="hidden" name="id_konsultasi" id="" class="form-control" value = "<?= $row['id_konsultasi'] ?>">
             <input type="hidden" name="id_wali_murid" id="" class="form-control" value = "<?= $row['id_wali_murid'] ?>">
             <div class="form-group">
-                <label for="">Status Konsultasi</label>
+                <label for="">Status Pendaftar</label>
                 <select name="status_konsultasi" class = "form-control status_konsultasi" id="" required>
                     <option value="">--Pilih Konsultasi--</option>
                     <option value="approve">approve</option>
