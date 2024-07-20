@@ -191,6 +191,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
                     <option value="BASKET" <?= ($row['konsultasi'] == 'BASKET') ? 'selected' : '' ?>>BASKET</option>
                     <option value="KOPMA" <?= ($row['konsultasi'] == 'KOPMA') ? 'selected' : '' ?>>KOPMA</option>
                     <option value="ROHIS" <?= ($row['konsultasi'] == 'ROHIS') ? 'selected' : '' ?>>ROHIS</option>
+                    <option value="ROHKRIS" <?= ($row['konsultasi'] == 'ROHKRIS') ? 'selected' : '' ?>>ROHKRIS</option>
                     <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
                 </select>
             </div>
