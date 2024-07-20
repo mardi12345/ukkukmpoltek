@@ -26,7 +26,7 @@ $nama_ayah = $_SESSION['nama_ayah'];
   
           <li><a href="<?= $base_url ?>walimurid/pendaftaran.php">Pendaftaran</a></li>
           <li><a href="<?= $base_url ?>#portfolio">Gallery</a></li>
-          <li><a href="<?= $base_url ?>#blog">Information</a></li>
+          <li><a href="<?= $base_url ?>#blog">Berita</a></li>
           <li><a href="<?= $base_url ?>#contact">Contact</a></li>
           <li><a href="<?= $base_url?>walimurid/konsultasi.php">Keanggotaan</a></li>
           <?php if( $id_wali_murid  == ''){?>
