@@ -1,15 +1,9 @@
 <?php 
-
-
-
 error_reporting(0);
  
 session_start();
 $id_wali_murid = $_SESSION['id_wali_murid'];
 $nama_ayah = $_SESSION['nama_ayah'];
-
-
-
 ?>
 
 <header id="header" class="fixed-top">
@@ -32,7 +26,7 @@ $nama_ayah = $_SESSION['nama_ayah'];
           <?php if( $id_wali_murid  == ''){?>
             <li><a href="<?= $base_url?>walimurid/login.php">Login</a></li>
           <?php }else{ ?>
-            <li class="drop-down"><a href="#"><?= $nama_ayah?></a>
+            <li class="drop-down"><a href="#"> Profil Saya </a>
               <ul>
                 <li><a href="<?= $base_url ?>walimurid/profile.php">Profile</a></li>
                 <li><a href="<?= $base_url?>auth/logout.php">Logout</a></li>
