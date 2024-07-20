@@ -42,12 +42,12 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                        <div class="row">
                        <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">Nama Ayah</label>
+                                <label for="">Nama Mahasiswa</label>
                                 <input type="hidden" name="id_wali_murid" value="<?= $row['id_wali_murid']?>">
                                 <input type="text" name="nama_ayah" class="form-control" value="<?= $row['nama_ayah']?>" required>
                             </div>
                             <div class="form-group">
-                                <label for="">Nama Ibu</label>
+                                <label for="">Nomor Induk Mahasiswa</label>
                                 <input type="text" name="nama_ibu" class="form-control" value="<?= $row['nama_ibu']?>" required>
                             </div>
                             <div class="form-group">
