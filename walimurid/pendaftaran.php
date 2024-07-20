@@ -113,20 +113,6 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                   <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="">Nama Ayah</label>
-                            <input type="hidden" name = "id_murid" value = "<?= $row['id_murid']?>">
-                            <input type="text" name ="nama_ayah" class = "form-control"  required>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Nama Ibu</label>
-                            <input type="text" name = "nama_ibu" class = "form-control"  required>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Pekerjaan Ayah</label>
-                            <input type="text" name = "pekerjaan_ayah" class = "form-control"  required>
-                        </div>
-                        
-                        <div class="form-group">
                             <label for="">Username</label>
                             <input type="text" name = "username" class = "form-control"  required>
                         </div>
@@ -170,7 +156,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
               </div>
             </div>
             <div class="simple-footer">
-                Copyright &copy; Aplikasi
+                Copyright &copy; Ukk Ukm Poltek GT Ardi
             </div>
           </div>
         </div>
