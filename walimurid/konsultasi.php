@@ -158,9 +158,9 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             <div class="form-group">
                 <label for="">Organisasi Pilihan</label>
                 <select name="konsultasi" class="form-control" required>
-                    <option value="Organisasi A" <?= ($row['konsultasi'] == 'Organisasi A') ? 'selected' : '' ?>>Organisasi A</option>
-                    <option value="Organisasi B" <?= ($row['konsultasi'] == 'Organisasi B') ? 'selected' : '' ?>>Organisasi B</option>
-                    <option value="Organisasi C" <?= ($row['konsultasi'] == 'Organisasi C') ? 'selected' : '' ?>>Organisasi C</option>
+                    <option value="Organisasi A" <?= ($row['konsultasi'] == 'Organisasi A') ? 'selected' : '' ?>>PATAKA</option>
+                    <option value="Organisasi B" <?= ($row['konsultasi'] == 'Organisasi B') ? 'selected' : '' ?>>DRUMBAND</option>
+                    <option value="Organisasi C" <?= ($row['konsultasi'] == 'Organisasi C') ? 'selected' : '' ?>>PADUAN SUARA</option>
                     <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
                 </select>
             </div>
