@@ -13,7 +13,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
 ?>
 
 <div class="blog-page area-padding">
-    <div class="container  mt-5">
+    <div class="container mt-5">
         <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
         Tambah Keanggotaan
         </button>
@@ -33,12 +33,12 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                     <table id="table" class="table table-striped table-hover" cellspacing="0" width="100%">
                         <thead >
                             <tr >
-                                <th width = "5%">No.</th>
+                                <th width="5%">No.</th>
                                 <th>Tanggal</th>
                                 <th>Waktu</th>
                                 <th>Organisasi Pilihan</th>
                                 <th>Alasan</th>
-                                <th class="text-center" width = "20%">Action</th>
+                                <th class="text-center" width="20%">Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -54,20 +54,18 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                                     <td><?= $row['jam_konsultasi']?></td>
                                     <td><?= $row['konsultasi']?></td>
                                     <td><?= $row['jawaban_konsultasi']?></td>
-                                    <?php if ( $row['status_konsultasi'] != 'approve') { ?>
-                                        <td class ="text-center"> 
+                                    <?php if ($row['status_konsultasi'] != 'approve') { ?>
+                                        <td class="text-center"> 
                                             <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_konsultasi'] ?>">
                                             <i class="fas fa-edit"></i>
                                             </button>
                                             <a href="<?= $base_url ?>proses_walimurid/data_konsultasi/delete.php?id=<?= $row['id_konsultasi'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
                                         </td>
-                                   
-                                    <?php }else{ ?>
-                                        <td class ="text-center">-</td>
+                                    <?php } else { ?>
+                                        <td class="text-center">-</td>
                                     <?php } ?>
                                 </tr>
                             <?php } ?>
-                            
                         </tbody>
                     </table>
                 </div>
@@ -76,7 +74,6 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
     </div>
 </div>
 
-               
 <!-- Modal -->
 <div class="modal fade" id="tambahdata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
@@ -105,14 +102,23 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
         </div>
         <div class="form-group">
             <label for="">Organisasi Pilihan</label>
-            <textarea name="konsultasi" class = "form-control" id="" cols="30" rows="5" required></textarea>
+            <select name="konsultasi" class="form-control" required>
+                <option value="">-- Pilih Organisasi --</option>
+                <option value="Organisasi A">Organisasi A</option>
+                <option value="Organisasi B">Organisasi B</option>
+                <option value="Organisasi C">Organisasi C</option>
+                <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
+            </select>
         </div>
-    
+        <div class="form-group">
+            <label for="">Alasan Memilih Organisasi</label>
+            <textarea name="jawaban_konsultasi" class="form-control" id="" cols="30" rows="5" required></textarea>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="submit" name = "insert" class="btn btn-primary">Save</button>
-        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" name="insert" class="btn btn-primary">Save</button>
+      </div>
       </form>
     </div>
   </div>
@@ -134,29 +140,38 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
       </div>
       <form action="<?= $base_url ?>proses_walimurid/data_konsultasi/update.php" method="post" enctype='multipart/form-data'>
         <div class="modal-body">
-            <input type="hidden" name="id_konsultasi" id="" class="form-control" value = "<?= $row['id_konsultasi'] ?>">
+            <input type="hidden" name="id_konsultasi" id="" class="form-control" value="<?= $row['id_konsultasi'] ?>">
             <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="">Tanggal</label>
-                    <input type="date" name="tanggal_konsultasi" id="" class="form-control" required value = "<?= $row['tanggal_konsultasi']?>">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="">Tanggal</label>
+                        <input type="date" name="tanggal_konsultasi" id="" class="form-control" required value="<?= $row['tanggal_konsultasi']?>">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="">Waktu</label>
+                        <input type="time" name="jam_konsultasi" id="" class="form-control" required value="<?= $row['jam_konsultasi']?>">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="">Waktu</label>
-                    <input type="time" name="jam_konsultasi" id="" class="form-control" required value = "<?= $row['jam_konsultasi']?>">
-                </div>
+            <div class="form-group">
+                <label for="">Organisasi Pilihan</label>
+                <select name="konsultasi" class="form-control" required>
+                    <option value="Organisasi A" <?= ($row['konsultasi'] == 'Organisasi A') ? 'selected' : '' ?>>Organisasi A</option>
+                    <option value="Organisasi B" <?= ($row['konsultasi'] == 'Organisasi B') ? 'selected' : '' ?>>Organisasi B</option>
+                    <option value="Organisasi C" <?= ($row['konsultasi'] == 'Organisasi C') ? 'selected' : '' ?>>Organisasi C</option>
+                    <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
+                </select>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="">Organisasi Pilihan</label>
-            <textarea name="konsultasi" class = "form-control" id="" cols="30" rows="5" required><?= $row['konsultasi']?></textarea>
-        </div>
+            <div class="form-group">
+                <label for="">Alasan Memilih Organisasi</label>
+                <textarea name="jawaban_konsultasi" class="form-control" id="" cols="30" rows="5" required><?= $row['jawaban_konsultasi']?></textarea>
+            </div>
         </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="submit" name = "update" class="btn btn-primary">Save</button>
+            <button type="submit" name="update" class="btn btn-primary">Save</button>
           </div>
         </div>
       </form>
