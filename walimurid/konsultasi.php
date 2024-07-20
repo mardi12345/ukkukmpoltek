@@ -186,8 +186,8 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
                     <option value="DRUMBAND" <?= ($row['konsultasi'] == 'DRUMBAND') ? 'selected' : '' ?>>DRUMBAND</option>
                     <option value="PADUAN SUARA" <?= ($row['konsultasi'] == 'PADUAN SUARA') ? 'selected' : '' ?>>PADUAN SUARA</option>
                     <option value="VOLLY BALL" <?= ($row['konsultasi'] == 'VOLLY BALL') ? 'selected' : '' ?>>VOLLY BALL</option>
-                    <option value="BADMINTHON" <?= ($row['konsultasi'] == 'BADMINTHON') ? 'selected' : '' ?>>DRUMBAND</option>
-                    <option value="Organisasi C" <?= ($row['konsultasi'] == 'Organisasi C') ? 'selected' : '' ?>>PADUAN SUARA</option>
+                    <option value="BADMINTHON" <?= ($row['konsultasi'] == 'BADMINTHON') ? 'selected' : '' ?>>BADMINTHON</option>
+                    <option value="FUTSAL" <?= ($row['konsultasi'] == 'FUTSAL') ? 'selected' : '' ?>>FUTSAL</option>
                     <option value="PATAKA" <?= ($row['konsultasi'] == 'PATAKA') ? 'selected' : '' ?>>PATAKA</option>
                     <option value="Organisasi B" <?= ($row['konsultasi'] == 'Organisasi B') ? 'selected' : '' ?>>DRUMBAND</option>
                     <option value="Organisasi C" <?= ($row['konsultasi'] == 'Organisasi C') ? 'selected' : '' ?>>PADUAN SUARA</option>
