@@ -67,9 +67,8 @@ $id_kategori = $_SESSION['id_kategori'];
                                     </button>
                                     <!-- <a href="<?= $base_url ?>proses_walimurid/data_konsultasi/delete.php?id=<?= $row['id_konsultasi'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a> -->
                                 </td>
-                            
                             <?php }else{ ?>
-                                <td class ="fas fa-check"></td>
+                                <td class ="text-center">Selesai</td>
                             <?php } ?>
                         </tr>
                     <?php } ?>
