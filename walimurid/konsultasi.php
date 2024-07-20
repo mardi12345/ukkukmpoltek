@@ -121,9 +121,9 @@ while ($row = mysqli_fetch_assoc($result_organisasi_sudah_pilih)) {
                     'VOLLY BALL' => 'VOLLY BALL',
                     'BADMINTON' => 'BADMINTON',
                     'FUTSAL' => 'FUTSAL',
-                    'PATAKA' => 'PATAKA',
-                    'Organisasi B' => 'DRUMBAND',
-                    'Organisasi C' => 'PADUAN SUARA'
+                    'BASKET' => 'BASKET',
+                    'KOPMA' => 'KOPMA',
+                    'ROHIS' => 'ROHIS'
                 ];
                 foreach ($organisasi_list as $value => $text) {
                     if (!in_array($value, $organisasi_sudah_pilih)) {
