@@ -13,7 +13,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
 ?>
 
 <div class="blog-page area-padding">
-    <div class="container  mt-5">
+    <div class="container mt-5">
         <div class="card">
             <div class="card-header">
                 <center><h4>Profile</h4></center>
@@ -23,11 +23,15 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                 <div class="col-md-12">
     
                 <?php 
-
-                    $query = "SELECT * FROM tbl_wali_murid where id_wali_murid = $id_wali_murid";
+                    // Query untuk mendapatkan data dari tbl_wali_murid dan nama dari tbl_murid
+                    $query = "SELECT wm.*, m.nama AS nama_ayah
+                              FROM tbl_wali_murid wm
+                              JOIN tbl_murid m ON wm.id_murid = m.id_murid
+                              WHERE wm.id_wali_murid = $id_wali_murid";
                     $result_tasks = mysqli_query($conn, $query);    
                     $no = 1;
-                    $row =  mysqli_fetch_assoc($result_tasks) ?>
+                    $row =  mysqli_fetch_assoc($result_tasks);
+                ?>
                     <?php if (isset($_SESSION['message'])) { ?>
                         <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
                         <?= $_SESSION['message']?>
@@ -39,47 +43,46 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                        <div class="row">
                        <div class="col-md-6">
                             <div class="form-group">
-                                <label for="">Nama Ayah</label>
-                                <input type="hidden" name = "id_wali_murid" value = "<?= $row['id_wali_murid']?>">
-                                <input type="text" name ="nama_ayah" class = "form-control" value = "<?= $row['nama_ayah']?>" required>
+                                <label for="">Nama Mahasiswa</label>
+                                <input type="hidden" name="id_wali_murid" value="<?= $row['id_wali_murid']?>">
+                                <input type="text" name="nama_ayah" class="form-control" value="<?= $row['nama_ayah']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Nama Ibu</label>
-                                <input type="text" name = "nama_ibu" class = "form-control" value = "<?= $row['nama_ibu']?>" required>
+                                <input type="text" name="nama_ibu" class="form-control" value="<?= $row['nama_ibu']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Pekerjaan Ayah</label>
-                                <input type="text" name = "pekerjaan_ayah" class = "form-control" value = "<?= $row['pekerjaan_ayah']?>" required>
+                                <input type="text" name="pekerjaan_ayah" class="form-control" value="<?= $row['pekerjaan_ayah']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Pekerjaan Ibu</label>
-                                <input type="text" name = "pekerjaan_ibu" class = "form-control" value = "<?= $row['pekerjaan_ibu']?>" required>
+                                <input type="text" name="pekerjaan_ibu" class="form-control" value="<?= $row['pekerjaan_ibu']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Alamat</label>
-                                <input type="text" name = "alamat" class = "form-control" value = "<?= $row['alamat']?>" required>
+                                <input type="text" name="alamat" class="form-control" value="<?= $row['alamat']?>" required>
                             </div>
                         </div>
                         <div class="col-md-6">
-                           
                             <div class="form-group">
                                 <label for="">No Telp</label>
-                                <input type="text" name = "no_telp" class = "form-control" value = "<?= $row['no_telp']?>" required>
+                                <input type="text" name="no_telp" class="form-control" value="<?= $row['no_telp']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Email</label>
-                                <input type="email" name = "email" class = "form-control" value = "<?= $row['email']?>" required>
+                                <input type="email" name="email" class="form-control" value="<?= $row['email']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Username</label>
-                                <input type="text" name = "username" class = "form-control" value = "<?= $row['username']?>" required>
+                                <input type="text" name="username" class="form-control" value="<?= $row['username']?>" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Password</label>
-                                <input type="password" name = "password" class = "form-control" required>
+                                <input type="password" name="password" class="form-control" required>
                             </div>
                             <div class="text-right mt-5">
-                                <button type = "submit" name ="update" class = "btn btn-primary">Update Data</button>
+                                <button type="submit" name="update" class="btn btn-primary">Update Data</button>
                             </div>
                         </div>
                        </div>
