@@ -82,7 +82,7 @@ include("../include/koneksi.php");
                 </li>
 
                 <li class="menu-header">Data Transaksi</li>
-                <li ><a class="nav-link" href="<?= $base_url?>admin/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Konsultasi</span></a></li>
+                <li ><a class="nav-link" href="<?= $base_url?>admin/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Pendaftar</span></a></li>
                 <li ><a class="nav-link" href="<?= $base_url?>admin/data_monitoring.php"><i class="fas fa-calendar-check"></i> <span>Data Monitoring</span></a></li>
                 <li ><a class="nav-link" href="<?= $base_url?>admin/data_quisioner.php"><i class="fas fa-calendar-check"></i> <span>Data Quisioner</span></a></li>
                 <li class="menu-header">Data Laporan</li>
@@ -103,7 +103,7 @@ include("../include/koneksi.php");
                 </li>
 
                 <li class="menu-header">Data Transaksi</li>
-                <li ><a class="nav-link" href="<?= $base_url?>guru/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Konsultasi</span></a></li>
+                <li ><a class="nav-link" href="<?= $base_url?>guru/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Pendaftar</span></a></li>
                 <li ><a class="nav-link" href="<?= $base_url?>guru/data_monitoring.php"><i class="fas fa-calendar-check"></i> <span>Data Monitoring</span></a></li>
                 <li class="menu-header">Data Laporan</li>
                 <li ><a class="nav-link" href="<?= $base_url?>guru/laporan_belajar.php"><i class="fas fa-calendar-check"></i> <span>Data Laporan Belajar</span></a></li>
@@ -142,7 +142,7 @@ include("../include/koneksi.php");
                 </li>
 
                 <li class="menu-header">Data Transaksi</li>
-                <li ><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Konsultasi</span></a></li>
+                <li ><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Pendaftar</span></a></li>
                 <li ><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_monitoring.php"><i class="fas fa-calendar-check"></i> <span>Data Monitoring</span></a></li>
                 <li class="menu-header">Data Laporan</li>
                 <li ><a class="nav-link" href="<?= $base_url?>kepala_sekolah/laporan_belajar.php"><i class="fas fa-calendar-check"></i> <span>Data Laporan Belajar</span></a></li>
