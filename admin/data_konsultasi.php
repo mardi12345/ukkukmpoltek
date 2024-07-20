@@ -41,6 +41,7 @@ $id_kategori = $_SESSION['id_kategori'];
                         <th>Konsultasi</th>
                         <th>Status Konsultasi</th>
                         <th>Jawaban Konsultasi</th>
+                        <th>Alasan Memilih</th>
                         <th>Wali Kelas</th>
                         <th>Nama Wali</th>
                         <th>Nama Murid</th>
@@ -61,6 +62,7 @@ $id_kategori = $_SESSION['id_kategori'];
                             <td><?= $row['konsultasi']?></td>
                             <td><?= $row['status_konsultasi']?></td>
                             <td><?= $row['jawaban_konsultasi']?></td>
+                            <td><?= $row['alasan_memilih']?></td>
                             <td><?= $row['nama_users']?></td>
                             <td><?= $row['nama_ayah']?></td>
                             <td><?= $row['nama']?></td>
