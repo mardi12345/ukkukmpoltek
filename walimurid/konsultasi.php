@@ -116,6 +116,12 @@ while ($row = mysqli_fetch_assoc($result_organisasi_sudah_pilih)) {
                 <?php 
                 $organisasi_list = [
                     'PATAKA' => 'PATAKA',
+                    'DRUMBAND' => 'DRUMBAND',
+                    'PADUAN SUARA' => 'PADUAN SUARA',
+                    'VOLLY BALL' => 'VOLLY BALL',
+                    'Organisasi B' => 'DRUMBAND',
+                    'Organisasi C' => 'PADUAN SUARA',
+                    'PATAKA' => 'PATAKA',
                     'Organisasi B' => 'DRUMBAND',
                     'Organisasi C' => 'PADUAN SUARA'
                 ];
