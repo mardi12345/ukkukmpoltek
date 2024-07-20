@@ -825,7 +825,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
               </label>
             </div>
             <br>
-            <label for="">Bagaimana penerapan sistem ini pada SLB apakah sangat membantu?</label>
+            <label for="">Bagaimana penerapan Web ini kepada Rekan Mahasiswa Sekalian? apakah sangat membantu?</label>
             <div class="form-check">
               <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="q5" value = "5">Sangat Setuju
