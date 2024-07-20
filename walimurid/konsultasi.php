@@ -53,7 +53,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
                                     <td><?= $row['tanggal_konsultasi']?></td>
                                     <td><?= $row['jam_konsultasi']?></td>
                                     <td><?= $row['konsultasi']?></td>
-                                    <td><?= $row['jawaban_konsultasi']?></td>
+                                    <td><?= $row['alasan_memilih']?></td>
                                     <?php if ($row['status_konsultasi'] != 'approve') { ?>
                                         <td class="text-center"> 
                                             <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_konsultasi'] ?>">
@@ -112,7 +112,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
         </div>
         <div class="form-group">
             <label for="">Alasan Memilih Organisasi</label>
-            <textarea name="jawaban_konsultasi" class="form-control" id="" cols="30" rows="5" required></textarea>
+            <textarea name="alasan_memilih" class="form-control" id="" cols="30" rows="5" required></textarea>
         </div>
       </div>
       <div class="modal-footer">
@@ -166,7 +166,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             </div>
             <div class="form-group">
                 <label for="">Alasan Memilih Organisasi</label>
-                <textarea name="jawaban_konsultasi" class="form-control" id="" cols="30" rows="5" required><?= $row['jawaban_konsultasi']?></textarea>
+                <textarea name="alasan_memilih" class="form-control" id="" cols="30" rows="5" required><?= $row['alasan_memilih']?></textarea>
             </div>
         </div>
           <div class="modal-footer">
