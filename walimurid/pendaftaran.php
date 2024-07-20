@@ -97,7 +97,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="">Gambar</label>
+                        <label for="">Foto Kartu Mahasiswa/Penneng</label>
                         <input type="file" name="gambar" id="" class="form-control" required>
                     </div>
                     
@@ -116,6 +116,10 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                             <label for="">Username</label>
                             <input type="text" name = "username" class = "form-control"  required>
                         </div>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" name = "password" class = "form-control" required>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         
@@ -126,12 +130,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                         <div class="form-group">
                             <label for="">Email</label>
                             <input type="email" name = "email" class = "form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Password</label>
-                            <input type="password" name = "password" class = "form-control" required>
-                        </div>
-                       
+                        </div>            
                     </div>
                     <div class="col-md-12">
                        
