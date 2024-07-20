@@ -75,7 +75,7 @@ $id_kategori = $_SESSION['id_kategori'];
                                 </td>
                             
                             <?php }else{ ?>
-                                <td class ="text-center">-</td>
+                                <td class ="fas fa-check"></td>
                             <?php } ?>
                         </tr>
                     <?php } ?>
