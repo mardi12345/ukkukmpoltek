@@ -49,7 +49,7 @@ include('../include/koneksi.php');
 
                         <div class="card card-primary">
                             <div class="card-header">
-                                <h4>Login Wali Murid</h4>
+                                <h4>Login Mahasiswa</h4>
 
                             </div>
 
