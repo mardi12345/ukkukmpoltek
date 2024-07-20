@@ -44,7 +44,7 @@ include('../include/koneksi.php');
                             <img src="<?= $base_url ?>assets/img/logosl.png" alt="logo" width="150" class="shadow-light rounded" style="padding: 10px;">
                             <h4 class="mt-3">UKK & UKM POLTEK GT </h4>
                         </div>
-                        <center><p>Repost by <a href='' title='StokCoding.com' target='_blank'>ARDIIIIIIIIIIIIII</a></p></center>
+                        <center><p> <a href='' target='_blank'>ARDIIIIIIIIIIIIII</a></p></center>
 
 
                         <div class="card card-primary">
