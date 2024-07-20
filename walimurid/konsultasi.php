@@ -104,7 +104,7 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
             <label for="">Organisasi Pilihan</label>
             <select name="konsultasi" class="form-control" required>
                 <option value="">-- Pilih Organisasi --</option>
-                <option value="Organisasi A">PATAKA</option>
+                <option value="PATAKA">PATAKA</option>
                 <option value="Organisasi B">DRUMBAND</option>
                 <option value="Organisasi C">PADUAN SUARA</option>
                 <!-- Tambahkan opsi lainnya sesuai kebutuhan -->
