@@ -123,7 +123,8 @@ while ($row = mysqli_fetch_assoc($result_organisasi_sudah_pilih)) {
                     'FUTSAL' => 'FUTSAL',
                     'BASKET' => 'BASKET',
                     'KOPMA' => 'KOPMA',
-                    'ROHIS' => 'ROHIS'
+                    'ROHIS' => 'ROHIS',
+                    'ROHKRIS' => 'ROHKRIS',
                 ];
                 foreach ($organisasi_list as $value => $text) {
                     if (!in_array($value, $organisasi_sudah_pilih)) {
