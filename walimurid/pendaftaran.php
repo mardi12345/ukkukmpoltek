@@ -108,7 +108,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
     
 
                   <div class="form-divider">
-                    Wali Murid
+                    Akun 
                   </div>
                   <div class="row">
                     <div class="col-md-6">
@@ -126,10 +126,6 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                         <div class="form-group">
                             <label for="">Email</label>
                             <input type="email" name = "email" class = "form-control" required>
-                        </div>
-                       <div class="form-group">
-                            <label for="">Pekerjaan Ibu</label>
-                            <input type="text" name = "pekerjaan_ibu" class = "form-control" required>
                         </div>
                         <div class="form-group">
                             <label for="">Password</label>
