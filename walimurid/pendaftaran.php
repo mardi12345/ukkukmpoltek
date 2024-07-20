@@ -113,22 +113,12 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                   <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="">Nama Ayah</label>
-                            <input type="hidden" name = "id_murid" value = "<?= $row['id_murid']?>">
-                            <input type="text" name ="nama_ayah" class = "form-control"  required>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Nama Ibu</label>
-                            <input type="text" name = "nama_ibu" class = "form-control"  required>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Pekerjaan Ayah</label>
-                            <input type="text" name = "pekerjaan_ayah" class = "form-control"  required>
-                        </div>
-                        
-                        <div class="form-group">
                             <label for="">Username</label>
                             <input type="text" name = "username" class = "form-control"  required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Password</label>
+                            <input type="password" name = "password" class = "form-control" required>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -145,10 +135,6 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                             <label for="">Pekerjaan Ibu</label>
                             <input type="text" name = "pekerjaan_ibu" class = "form-control" required>
                         </div>
-                        <div class="form-group">
-                            <label for="">Password</label>
-                            <input type="password" name = "password" class = "form-control" required>
-                        </div>
                        
                     </div>
                     <div class="col-md-12">
@@ -161,7 +147,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
                         </div>
                         <div class="form-group">
                           <button type="submit" name = "insert" class="btn btn-primary btn-lg btn-block">
-                            Register
+                            Daftar Akun
                           </button>
                         </div>
                     </div>
@@ -170,7 +156,7 @@ if ($_SESSION['id_wali_murid'] == NULL) { ?>
               </div>
             </div>
             <div class="simple-footer">
-                Copyright &copy; Aplikasi
+                Copyright &copy; Ukk ukm Poltek Gt
             </div>
           </div>
         </div>
