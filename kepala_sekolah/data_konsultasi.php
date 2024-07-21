@@ -32,15 +32,16 @@ $id_kategori = $_SESSION['id_kategori'];
       <div class="card table-responsive">
         <div class="card-body ">
           
-          <table id="table" class="table table-striped table-hover" cellspacing="0" width="100%">
+            <table id="table" class="table table-striped table-hover" cellspacing="0" width="100%">
                 <thead >
                     <tr >
                         <th width = "5%">No.</th>
                         <th>Tanggal</th>
                         <th>Waktu</th>
-                        <th>Konsultasi</th>
-                        <th>Status Pendaftar</th>
-                        <th>Nama Murid</th>
+                        <th>Organisasi Pilihan</th>
+                        <th>Status Penerimaan</th>
+                        <th>Alasan Memilih</th>
+                        <th>Nama Mahasiswa</th>
                         <th class="text-center" width = "20%">Action</th>
                     </tr>
                 </thead>
@@ -57,8 +58,7 @@ $id_kategori = $_SESSION['id_kategori'];
                             <td><?= $row['jam_konsultasi']?></td>
                             <td><?= $row['konsultasi']?></td>
                             <td><?= $row['status_konsultasi']?></td>
-                            <td><?= $row['nama_users']?></td>
-                            <td><?= $row['nama_ayah']?></td>
+                            <td><?= $row['alasan_memilih']?></td>
                             <td><?= $row['nama']?></td>
                             <?php if ( $row['status_konsultasi'] != 'approve') { ?>
                                 <td class ="text-center"> 
@@ -67,9 +67,8 @@ $id_kategori = $_SESSION['id_kategori'];
                                     </button>
                                     <!-- <a href="<?= $base_url ?>proses_walimurid/data_konsultasi/delete.php?id=<?= $row['id_konsultasi'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a> -->
                                 </td>
-                            
                             <?php }else{ ?>
-                                <td class ="text-center">-</td>
+                                <td class ="text-center">Selesai</td>
                             <?php } ?>
                         </tr>
                     <?php } ?>
@@ -83,7 +82,7 @@ $id_kategori = $_SESSION['id_kategori'];
 </div>
 
 <?php
-$query = "SELECT * FROM tbl_konsultasi tk INNER JOIN tbl_users tu ON tk.id_users = tu.id_users";
+   $query = "SELECT * FROM tbl_konsultasi tk INNER JOIN tbl_users tu ON tk.id_users = tu.id_users INNER JOIN tbl_wali_murid twm on twm.id_wali_murid = tk.id_wali_murid INNER JOIN tbl_murid tm on tm.id_murid = twm.id_murid";
 $result_tasks = mysqli_query($conn, $query);    
 $no = 1;
 while($row = mysqli_fetch_assoc($result_tasks)) { ?>
@@ -99,9 +98,10 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
       <form action="<?= $base_url ?>proses_admin/data_konsultasi/update.php" method="post" enctype='multipart/form-data'>
         <div class="modal-body">
             <input type="hidden" name="id_konsultasi" id="" class="form-control" value = "<?= $row['id_konsultasi'] ?>">
+            <input type="hidden" name="id_wali_murid" id="" class="form-control" value = "<?= $row['id_wali_murid'] ?>">
             <div class="form-group">
                 <label for="">Status Pendaftar</label>
-                <select name="status_konsultasi" class = "form-control" id="" required>
+                <select name="status_konsultasi" class = "form-control status_konsultasi" id="" required>
                     <option value="">--Pilih Status--</option>
                     <option value="approve">approve</option>
                     <option value="ditunda">ditunda</option>
@@ -117,5 +117,15 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
   </div>
 </div>
 <?php } ?>
+<script>
+  $('.status_konsultasi').on('change', function() {
+    var status = this.value;
 
+    if (status == 'ditunda') {
+        $('.jawaban_konsultasi').hide();
+    }else{
+      $('.jawaban_konsultasi').show();
+    }
+  });
+</script>
 <?php include('../template/footer.php'); ?>

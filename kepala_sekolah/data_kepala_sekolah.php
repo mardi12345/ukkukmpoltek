@@ -36,7 +36,7 @@ $id_users = $_SESSION['id_users'];
     <div class="section-body">
       <div class="card table-responsive">
         <div class="card-body ">
-            <form action="<?= $base_url ?>proses_kepala_sekolah/data_kepala_sekolah/update.php" method = "POST"  enctype='multipart/form-data'>
+            <form action="<?= $base_url ?>proses_admin/data_kepala_sekolah/update.php" method = "POST"  enctype='multipart/form-data'>
                 <div class="row">
                     <div class="col-md-12">
                     <div class="form-group">
