@@ -29,17 +29,14 @@ $id_users = $_SESSION['id_users'];
             <?php } ?>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="card card-statistic-1">
                     <div class="card-icon bg-danger">
-                        <a href="<?= $base_url ?>admin/data_murid.php">
+                        <a href="<?= $base_url ?>kepala_sekolah/data_murid.php">
                         <i class="fas fa-user-friends"></i>
                     </div>
                     <div class="card-wrap">
                         <div class="card-header">
-                        <h4>Data Mahasiswa</h4>
+                        <h4>Data Total Akun Mahasiswa</h4>
                         </div>
                         <?php 
                         $query_jumlah = "SELECT * FROM tbl_murid where status_murid = 'diterima'";
@@ -54,12 +51,12 @@ $id_users = $_SESSION['id_users'];
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="card card-statistic-1">
                     <div class="card-icon bg-warning">
-                        <a href="<?= $base_url ?>admin/data_konsultasi.php">
+                        <a href="<?= $base_url ?>kepala_sekolah/data_konsultasi.php">
                         <i class="fas fa-user-circle"></i>
                     </div>
                     <div class="card-wrap">
                         <div class="card-header">
-                        <h4>Jumlah Konsultasi</h4>
+                        <h4>Jumlah Pendaftar UKK UKM</h4>
                         </div>
                         <?php 
                         $query_jumlah = "SELECT * FROM tbl_konsultasi";
@@ -68,11 +65,6 @@ $id_users = $_SESSION['id_users'];
                         <div class="card-body">
                            <?= $jumlah?>
                         </div>
-                    </div></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="card card-statistic-1">
                     </div></a>
                     </div>
                 </div>
