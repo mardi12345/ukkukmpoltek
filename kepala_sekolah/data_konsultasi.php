@@ -102,7 +102,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             <div class="form-group">
                 <label for="">Status Pendaftar</label>
                 <select name="status_konsultasi" class = "form-control" id="" required>
-                    <option value="">--Pilih Konsultasi--</option>
+                    <option value="">--Pilih Status--</option>
                     <option value="approve">approve</option>
                     <option value="ditunda">ditunda</option>
                 </select>
