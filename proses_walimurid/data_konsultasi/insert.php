@@ -12,15 +12,19 @@ if (isset($_POST['insert'])) {
   $tanggal_konsultasi = mysqli_real_escape_string($conn, $_POST['tanggal_konsultasi']);
   $jam_konsultasi = mysqli_real_escape_string($conn, $_POST['jam_konsultasi']);
   $konsultasi = mysqli_real_escape_string($conn, $_POST['konsultasi']);
-  $jawaban_konsultasi = mysqli_real_escape_string($conn, $_POST['jawaban_konsultasi']);
   $alasan_memilih = mysqli_real_escape_string($conn, $_POST['alasan_memilih']); // Ambil data alasan memilih
 
   $status_konsultasi = 'diajukan';
-  $id_users = $row['id_users'];
+  $id_users = isset($row['id_users']) ? $row['id_users'] : '';
+
+  // Periksa apakah id_users kosong
+  if (empty($id_users)) {
+    die("id_users tidak ditemukan. Tidak bisa melanjutkan insert.");
+  }
 
   // Update query untuk menyertakan alasan_memilih
-  $query = "INSERT INTO `tbl_konsultasi`(`tanggal_konsultasi`, `jam_konsultasi`, `konsultasi`, `jawaban_konsultasi`, `alasan_memilih`, `status_konsultasi`, `id_users`, `id_wali_murid`) 
-            VALUES ('$tanggal_konsultasi','$jam_konsultasi','$konsultasi','$jawaban_konsultasi','$alasan_memilih','$status_konsultasi','$id_users','$id_wali_murid')";
+  $query = "INSERT INTO `tbl_konsultasi`(`tanggal_konsultasi`, `jam_konsultasi`, `konsultasi`, `alasan_memilih`, `status_konsultasi`, `id_users`, `id_wali_murid`) 
+            VALUES ('$tanggal_konsultasi','$jam_konsultasi','$konsultasi','$alasan_memilih','$status_konsultasi','$id_users','$id_wali_murid')";
 
   $result = mysqli_query($conn, $query);
   if (!$result) {
