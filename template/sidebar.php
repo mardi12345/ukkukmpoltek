@@ -52,10 +52,9 @@ include("../include/koneksi.php");
                 <li><a class="nav-link" href="<?= $base_url ?>admin/dashboard.php"><i class="fas fa-fire"></i> <span>Dashboard</span></a></li>
                 <li class="menu-header">Data Master</li>
                 <li class="nav-item dropdown ">
-                  <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Data Profile</span></a>
+                  <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Data Tampilan</span></a>
                   <ul class="dropdown-menu">
   
-                    <li><a class="nav-link" href="<?= $base_url?>admin/data_profile_sekolah.php">Data Profile Sekolah</a></li>
                     <li><a class="nav-link" href="<?= $base_url?>admin/data_galeri.php">Data Galeri</a></li>
                     <li><a class="nav-link" href="<?= $base_url?>admin/data_alur.php">Data Alur</a></li>
                     <li><a class="nav-link" href="<?= $base_url?>admin/data_informasi.php">Data Informasi</a></li>
@@ -112,10 +111,9 @@ include("../include/koneksi.php");
                 <li><a class="nav-link" href="<?= $base_url ?>admin/dashboard.php"><i class="fas fa-fire"></i> <span>Dashboard</span></a></li>
                 <li class="menu-header">Data Master</li>
                 <li class="nav-item dropdown ">
-                  <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Data Profile</span></a>
+                  <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-database"></i> <span>Data Tampilan</span></a>
                   <ul class="dropdown-menu">
   
-                    <li><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_profile_sekolah.php">Data Profile Sekolah</a></li>
                     <li><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_galeri.php">Data Galeri</a></li>
                     <li><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_alur.php">Data Alur</a></li>
                     <li><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_informasi.php">Data Informasi</a></li>
