@@ -82,7 +82,6 @@ include("../include/koneksi.php");
 
                 <li class="menu-header">Data Transaksi</li>
                 <li ><a class="nav-link" href="<?= $base_url?>admin/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Pendaftar</span></a></li>
-                <li ><a class="nav-link" href="<?= $base_url?>admin/data_monitoring.php"><i class="fas fa-calendar-check"></i> <span>Data Monitoring</span></a></li>
                 <li ><a class="nav-link" href="<?= $base_url?>admin/data_quisioner.php"><i class="fas fa-calendar-check"></i> <span>Data Quisioner</span></a></li>
                 <li class="menu-header">Data Laporan</li>
                 <li ><a class="nav-link" href="<?= $base_url?>admin/laporan_belajar.php"><i class="fas fa-calendar-check"></i> <span>Data Laporan Belajar</span></a></li>
