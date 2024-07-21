@@ -49,19 +49,6 @@ $month  = date('m');
                         <a href="">
                         <i class="fas fa-users"></i>
                     </div>
-                    <div class="card-wrap">
-                        <div class="card-header">
-                        <h4>Jumlah Guru</h4>
-                        </div>
-                        <?php 
-                        $query_jumlah = "SELECT * FROM tbl_users where hak_akses = 'guru'";
-                        $result_jumlah = mysqli_query($conn, $query_jumlah);
-                        $jumlah = mysqli_num_rows($result_jumlah); ?>
-                        <div class="card-body">
-                            <?= $jumlah?>
-                        </div> </a>
-                    </div>
-                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="card card-statistic-1">

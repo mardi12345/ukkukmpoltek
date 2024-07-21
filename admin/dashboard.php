@@ -30,26 +30,6 @@ $id_users = $_SESSION['id_users'];
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                     <div class="card card-statistic-1">
-                    <div class="card-icon bg-primary">
-                        <a href="<?= $base_url ?>kepala_sekolah/data_guru.php">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <div class="card-wrap">
-                        <div class="card-header">
-                        <h4>Jumlah Guru</h4>
-                        </div>
-                        <?php 
-                        $query_jumlah = "SELECT * FROM tbl_users where hak_akses = 'guru'";
-                        $result_jumlah = mysqli_query($conn, $query_jumlah);
-                        $jumlah = mysqli_num_rows($result_jumlah); ?>
-                        <div class="card-body">
-                            <?= $jumlah?>
-                        </div> </a>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="card card-statistic-1">
                     <div class="card-icon bg-danger">
                         <a href="<?= $base_url ?>kepala_sekolah/data_murid.php">
                         <i class="fas fa-user-friends"></i>
