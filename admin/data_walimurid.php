@@ -47,7 +47,7 @@ $id_users = $_SESSION['id_users'];
             <form action="<?= $base_url ?>proses_admin/data_wali_murid/update.php" method = "POST"  enctype='multipart/form-data'>
                 <div class="row">
                         <div class="col-md-6">
-                            <!-- <h5>Data Murid</h5> -->
+                            <!-- <h5>Data Mahasiswa</h5> -->
                             <img src="<?= $base_url ?>assets/img/murid/<?= $row['gambar']?>" alt="" width ="100%" class = "mb-4 p-5">
                         
                         

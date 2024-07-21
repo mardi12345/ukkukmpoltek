@@ -39,7 +39,7 @@ $id_users = $_SESSION['id_users'];
                     </div>
                     <div class="card-wrap">
                         <div class="card-header">
-                        <h4>Data Murid</h4>
+                        <h4>Data Mahasiswa</h4>
                         </div>
                         <?php 
                         $query_jumlah = "SELECT * FROM tbl_murid where status_murid = 'diterima'";

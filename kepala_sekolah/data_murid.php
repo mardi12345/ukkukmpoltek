@@ -15,7 +15,7 @@ $id_murid = $_SESSION['id_murid'];
 <div class="main-content">
   <section class="section">
     <div class="section-header">
-      <h1>Data Murid</h1>
+      <h1>Data Mahasiswa</h1>
     </div>
 
     <?php if (isset($_SESSION['message'])) { ?>

@@ -36,7 +36,7 @@ $id_kelas = $_GET['id'];
     <div class="section-body">
       <div class="card table-responsive">
         <div class="card-header">
-            <h4>Data Murid</h4>
+            <h4>Data Mahasiswa</h4>
         </div>
         <div class="card-body ">
           

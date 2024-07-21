@@ -15,7 +15,7 @@ $id_murid = $_SESSION['id_murid'];
 <div class="main-content">
   <section class="section">
     <div class="section-header">
-      <h1>Data Murid</h1>
+      <h1>Data Mahasiswa</h1>
     </div>
     <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
       Tambah Data
