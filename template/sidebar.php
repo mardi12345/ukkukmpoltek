@@ -74,7 +74,6 @@ include("../include/koneksi.php");
                   <ul class="dropdown-menu">
                     <li><a class="nav-link" href="<?= $base_url ?>admin/data_periode.php">Data Periode</a></li>
                     <li><a class="nav-link" href="<?= $base_url ?>admin/data_kelas.php">Data Kelas</a></li>
-                    <li><a class="nav-link" href="<?= $base_url ?>admin/data_mata_pelajaran.php">Data Mata Pelajaran</a></li>
                  
                   </ul>
                 </li>
