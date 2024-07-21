@@ -35,8 +35,6 @@ $id_users = $_SESSION['id_users'];
               <tr>
                 <th>No</th>
                 <th>Nama Kelas</th>
-                <th>Nama Kategori</th>
-                <th>Nama Wali</th>
                 <th class ="text-center">Action</th>
               </tr>
             </thead>

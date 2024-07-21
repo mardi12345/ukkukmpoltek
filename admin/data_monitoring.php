@@ -35,8 +35,6 @@ $id_users = $_SESSION['id_users'];
               <tr>
                 <th>No</th>
                 <th>Nama Kelas</th>
-                <th>Nama Kategori</th>
-                <th>Nama Wali</th>
                 <th class ="text-center">Action</th>
               </tr>
             </thead>
@@ -49,8 +47,6 @@ $id_users = $_SESSION['id_users'];
                 <tr>
                   <td><?= $no++ ?></td>
                   <td><?= $row['nama_kelas']?></td>
-                  <td><?= $row['nama_kategori']?></td>
-                  <td><?= $row['nama_users']?></td>
                   <td class ="text-center"> 
                     <a href="<?= $base_url ?>admin/data_detail_monitoring.php?id=<?= $row['id_kelas'] ?>" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
                   </td>

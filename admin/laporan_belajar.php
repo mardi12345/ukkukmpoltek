@@ -36,8 +36,6 @@ $id_kelas = $_SESSION['id_kelas'];
                 <th>No</th>
                 <th>Nama Kelas</th>
                 <th>Periode</th>
-                <th>Nama Kategori</th>
-                <th>Nama Wali</th>
                 <th class ="text-center">Action</th>
               </tr>
             </thead>
@@ -51,8 +49,6 @@ $id_kelas = $_SESSION['id_kelas'];
                   <td><?= $no++ ?></td>
                   <td><?= $row['nama_kelas']?></td>
                   <td><?= $row['periode']?></td>
-                  <td><?= $row['nama_kategori']?></td>
-                  <td><?= $row['nama_users']?></td>
                   <td class ="text-center"> 
                     <a href="<?= $base_url ?>admin/data_detail_laporan_users.php?id=<?= $row['id_kelas'] ?>" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
                   </td>
