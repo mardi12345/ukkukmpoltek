@@ -42,7 +42,7 @@ $id_murid = $_SESSION['id_murid'];
                 <th>TTL</th>
                 <th>Alamat</th>
                 <th>Agama</th>
-                <th>Status Murid</th>
+                <th>Status Mahasiswa</th>
                 <th>Foto</th>
                 <th class ="text-center">Action</th>
               </tr>
@@ -220,7 +220,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
                 <input type="file" name="gambar" id="" class="form-control">
             </div>
             <div class="form-group">
-              <label for="">Status Murid</label>
+              <label for="">Status Mahasiswa</label>
               <select name="status_murid" class = "form-control" required id="">
                 <option value="<?= $row['status_murid']?>"><?= $row['status_murid']?></option>
                 <option value="diterima">diterima</option>
