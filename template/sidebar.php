@@ -64,7 +64,6 @@ include("../include/koneksi.php");
                   <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-users"></i> <span>Data Users</span></a>
                   <ul class="dropdown-menu">
                     <li><a class="nav-link" href="<?= $base_url ?>admin/data_admin.php">Data Admin</a></li>
-                    <li><a class="nav-link" href="<?= $base_url ?>admin/data_kepala_sekolah.php">Data Kepala Sekolah</a></li>
                     <li><a class="nav-link" href="<?= $base_url ?>admin/data_murid.php">Data Murid</a></li>
                     <li><a class="nav-link" href="<?= $base_url ?>admin/data_guru.php">Data Guru</a></li>
                   </ul>
@@ -122,7 +121,6 @@ include("../include/koneksi.php");
                   <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-users"></i> <span>Data Users</span></a>
                   <ul class="dropdown-menu">
                     <li><a class="nav-link" href="<?= $base_url ?>kepala_sekolah/data_admin.php">Data Admin</a></li>
-                    <li><a class="nav-link" href="<?= $base_url ?>kepala_sekolah/data_kepala_sekolah.php">Data Kepala Sekolah</a></li>
                     <li><a class="nav-link" href="<?= $base_url ?>kepala_sekolah/data_murid.php">Data Murid</a></li>
                     <li><a class="nav-link" href="<?= $base_url ?>kepala_sekolah/data_guru.php">Data Guru</a></li>
                   </ul>
