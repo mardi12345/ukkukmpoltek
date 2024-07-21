@@ -19,7 +19,11 @@ if (isset($_POST['insert'])) {
 
   // Periksa apakah id_users kosong
   if (empty($id_users)) {
-    die("id_users tidak ditemukan. Tidak bisa melanjutkan insert.");
+    echo "<script>
+      alert('Akun Anda belum terverifikasi ke tingkat tertentu, silahkan hubungi admin.');
+      window.location.href = '" . $base_url . "walimurid/konsultasi.php';
+    </script>";
+    exit;
   }
 
   // Update query untuk menyertakan alasan_memilih
