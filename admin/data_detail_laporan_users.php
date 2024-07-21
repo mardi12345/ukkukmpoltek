@@ -39,7 +39,6 @@ $id_kelas = $_GET['id'];
                 <th>No</th>
                 <th>Nama Murid</th>
                 <th>Nama Kelas</th>
-                <th>Nama Wali Kelas</th>
                 <th class ="text-center">Action </th>
               </tr>
             </thead>
@@ -53,7 +52,6 @@ $id_kelas = $_GET['id'];
                   <td><?= $no++ ?></td>
                   <td><?= $row['nik']?> - <?= $row['nama']?></td>
                   <td><?= $row['nama_kelas']?></td>
-                  <td><?= $row['nama_users']?></td>
                   <td class ="text-center"> 
                     <a href="<?= $base_url ?>admin/data_detail_laporan_belajar.php?id=<?= $row['id_murid'] ?>&id_kelas=<?= $row['id_kelas'] ?>" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
                   </td>

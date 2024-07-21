@@ -41,7 +41,7 @@ $id_kelas = $_GET['id_kelas'];
                 <div class="col-md-6">
                   <div class="row">
                     <div class="col-md-4">
-                      <h6>Nama Peserta Didik</h6>
+                      <h6>Nama MAHASISWA</h6>
                     </div>
                     <div class="col-md-8">
                       <h6> : <?= $row['nama']?></h6>
@@ -49,7 +49,7 @@ $id_kelas = $_GET['id_kelas'];
                     <br>
                     <br>
                     <div class="col-md-4">
-                      <h6>NIK</h6>
+                      <h6>NIM</h6>
                     </div>
                     <div class="col-md-8">
                       <h6> : <?= $row['nik']?></h6>
