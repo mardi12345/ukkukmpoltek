@@ -54,11 +54,11 @@ $id_users = $_SESSION['id_users'];
                         </div>
                         <div class="col-md-6 pt-5">    
                             <div class="form-group">
-                                <label for="">Nik</label>
+                                <label for="">NIM</label>
                                 <input type="text" name = "nik" class = "form-control" value = "<?= $row['nik']?>" required readonly>
                             </div>  
                             <div class="form-group">
-                                <label for="">Nama Murid</label>
+                                <label for="">Nama MAHASISWA</label>
                                 <input type="hidden" name = "id_murid" value = "<?= $row['id_murid']?>">
                                 <input type="text" name ="nama" class = "form-control" value = "<?= $row['nama']?>" required readonly>
                             </div>

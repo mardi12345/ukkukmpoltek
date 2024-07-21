@@ -206,7 +206,7 @@ error_reporting(0);
                         <thead >
                             <tr >
                                 <th width = "5%">No.</th>
-                                <th>NIK</th>
+                                <th>NIM</th>
                                 <th>Nama</th>
                                 <th>Jenis Kelamin</th>
                                 <th>TTL</th>

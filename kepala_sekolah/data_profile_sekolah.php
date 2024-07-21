@@ -36,7 +36,7 @@ $id_users = $_SESSION['id_users'];
     <div class="section-body">
       <div class="card table-responsive">
         <div class="card-body ">
-            <form action="<?= $base_url ?>proses_kepala_sekolah/data_profile_sekolah/update.php" method = "POST"  enctype='multipart/form-data'>
+            <form action="<?= $base_url ?>proses_admin/data_profile_sekolah/update.php" method = "POST"  enctype='multipart/form-data'>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="text-center"><h3>Gambar Sekolah</h3></div>
@@ -54,11 +54,11 @@ $id_users = $_SESSION['id_users'];
                         </div>
                         <div class="form-group">
                             <label for="">Visi</label>
-                            <input type="text" name = "visi" class = "form-control" value = "<?= $row['visi']?>" required>
+                            <textarea name = "visi" class = "form-control summernote" id = "" value = "<?= $row['visi']?>" required><?= $row['visi']?></textarea>
                         </div>
                         <div class="form-group">
                             <label for="">Misi</label>
-                            <input type="text" name = "misi" class = "form-control" value = "<?= $row['misi']?>" required>
+                            <textarea name = "misi" class = "form-control summernote" id = "" value = "<?= $row['misi']?>" required><?= $row['misi']?></textarea>
                         </div>
                         <div class="form-group">
                             <label for="">Email</label>

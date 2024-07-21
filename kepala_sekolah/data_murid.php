@@ -17,7 +17,9 @@ $id_murid = $_SESSION['id_murid'];
     <div class="section-header">
       <h1>Data Mahasiswa</h1>
     </div>
-
+    <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
+      Tambah Data
+    </button>
     <?php if (isset($_SESSION['message'])) { ?>
         <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
         <?= $_SESSION['message']?>
@@ -34,12 +36,13 @@ $id_murid = $_SESSION['id_murid'];
             <thead>
               <tr>
                 <th>No</th>
-                <th>Nik</th>
+                <th>NIM</th>
                 <th>Nama</th>
                 <th>Jenis Kelamin</th>
                 <th>TTL</th>
                 <th>Alamat</th>
                 <th>Agama</th>
+                <th>Status Mahasiswa</th>
                 <th>Foto</th>
                 <th class ="text-center">Action</th>
               </tr>
@@ -58,9 +61,13 @@ $id_murid = $_SESSION['id_murid'];
                   <td><?= $row['tempat_lahir']?>, <?= $row['tanggal_lahir']?></td>
                   <td><?= $row['alamat']?></td>
                   <td><?= $row['agama']?></td>
+                  <td><?= $row['status_murid']?></td>
                   <td width = "10%" class ="text-center"><img src="<?= $base_url ?>assets/img/murid/<?= $row['gambar']?>" alt="" width ="90%"></td>
                   <td class ="text-center"> 
-                   
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_murid'] ?>">
+                      <i class="fas fa-edit"></i>
+                    </button>
+                    <a href="<?= $base_url ?>proses_admin/data_murid/delete.php?id=<?= $row['id_murid'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
                     <a href="<?= $base_url ?>admin/data_walimurid.php?id=<?= $row['id_murid'] ?>" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
                   </td>
                 </tr>
@@ -135,6 +142,8 @@ $id_murid = $_SESSION['id_murid'];
             <label for="">Alamat</label>
             <input type="text" name="alamat" id="" class="form-control" required>
           </div>
+
+      
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -163,7 +172,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             <div class="modal-body">
                 <input type="hidden" name="id_murid" id="" class="form-control" value = "<?= $row['id_murid'] ?>">
                 <div class="form-group">
-                <label for="">Nik</label>
+                <label for="">NIM</label>
                 <input type="number" name="nik" id="" class="form-control" required value = "<?= $row['nik']?>">
             </div>
             <div class="form-group">
@@ -210,7 +219,14 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
                 <label for="">Gambar</label>
                 <input type="file" name="gambar" id="" class="form-control">
             </div>
-            
+            <div class="form-group">
+              <label for="">Status Mahasiswa</label>
+              <select name="status_murid" class = "form-control" required id="">
+                <option value="<?= $row['status_murid']?>"><?= $row['status_murid']?></option>
+                <option value="diterima">diterima</option>
+                <option value="tidak">tidak</option>
+              </select>
+            </div>
         </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

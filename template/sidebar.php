@@ -98,7 +98,6 @@ include("../include/koneksi.php");
 
                 <li class="menu-header">Data Transaksi</li>
                 <li ><a class="nav-link" href="<?= $base_url?>guru/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Pendaftar</span></a></li>
-                <li ><a class="nav-link" href="<?= $base_url?>guru/data_monitoring.php"><i class="fas fa-calendar-check"></i> <span>Data Monitoring</span></a></li>
                 <li class="menu-header">Data Laporan</li>
                 <li ><a class="nav-link" href="<?= $base_url?>guru/laporan_belajar.php"><i class="fas fa-calendar-check"></i> <span>Data Laporan Pertingkat</span></a></li>
               </ul>
@@ -126,15 +125,12 @@ include("../include/koneksi.php");
                 <li class="nav-item dropdown">
                   <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-file"></i> <span>Data Master</span></a>
                   <ul class="dropdown-menu">
-                    <li><a class="nav-link" href="<?= $base_url ?>kepala_sekolah/data_kelas.php">Data Kelas</a></li>
-                    <li><a class="nav-link" href="<?= $base_url ?>kepala_sekolah/data_kategori.php">Data Kategori</a></li>
-                 
+                    <li><a class="nav-link" href="<?= $base_url ?>kepala_sekolah/data_kelas.php">Data Kelas</a></li>               
                   </ul>
                 </li>
 
                 <li class="menu-header">Data Transaksi</li>
                 <li ><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_konsultasi.php"><i class="fas fa-calendar-check"></i> <span>Data Pendaftar</span></a></li>
-                <li ><a class="nav-link" href="<?= $base_url?>kepala_sekolah/data_monitoring.php"><i class="fas fa-calendar-check"></i> <span>Data Monitoring</span></a></li>
                 <li class="menu-header">Data Laporan</li>
                 <li ><a class="nav-link" href="<?= $base_url?>kepala_sekolah/laporan_belajar.php"><i class="fas fa-calendar-check"></i> <span>Data Laporan Per-Tingkat</span></a></li>
               </ul>

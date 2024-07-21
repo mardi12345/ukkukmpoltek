@@ -47,10 +47,8 @@ $id_users = $_SESSION['id_users'];
                 <tr>
                   <td><?= $no++ ?></td>
                   <td><?= $row['nama_kelas']?></td>
-                  <td><?= $row['nama_kategori']?></td>
-                  <td><?= $row['nama_users']?></td>
                   <td class ="text-center"> 
-                    <a href="<?= $base_url ?>kepala_sekolah/data_detail_monitoring.php?id=<?= $row['id_kelas'] ?>" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
+                    <a href="<?= $base_url ?>admin/data_detail_monitoring.php?id=<?= $row['id_kelas'] ?>" class="btn btn-info btn-sm"><i class="fas fa-eye"></i></a>
                   </td>
                 </tr>
               <?php } ?>
