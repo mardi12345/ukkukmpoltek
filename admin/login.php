@@ -43,7 +43,7 @@ include('../include/koneksi.php');
                         <div class="login-brand">
                             <img src="<?= $base_url ?>assets/img/logosl.png" alt="logo" width="150" class="shadow-light rounded" style="padding: 10px;">
                             <h4 class="mt-3">UKK & UKM POLTEK GT </h4>
-                        </div><center><p>Repost by <a href='https:///' title='' target='_blank'></a></p></center>
+                        </div><center><p> Make It Happen! <a title='' target='_blank'></a></p></center>
 
 
                         <div class="card card-primary">
@@ -63,7 +63,7 @@ include('../include/koneksi.php');
                                 <form method="POST" action="<?= $base_url ?>auth/proses_login_admin.php" class="needs-validation" novalidate="">
                                     <div class="form-group">
                                         <label for="username">Username</label>
-                                        <input id="username" type="text" class="form-control" name="username" tabindex="1" required autofocus value="admin">
+                                        <input id="username" type="text" class="form-control" name="username" tabindex="1" required autofocus value="">
                                         <div class="invalid-feedback">
                                             Please fill in your Username
                                         </div>
@@ -73,7 +73,7 @@ include('../include/koneksi.php');
                                         <div class="d-block">
                                             <label for="password" class="control-label">Password</label>
                                         </div>
-                                        <input id="password" type="password" class="form-control" name="password" tabindex="2" required value="admin">
+                                        <input id="password" type="password" class="form-control" name="password" tabindex="2" required value="">
                                         <div class="invalid-feedback">
                                             please fill in your password
                                         </div>
