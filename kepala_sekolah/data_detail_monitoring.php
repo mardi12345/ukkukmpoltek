@@ -19,7 +19,9 @@ $id_kelas = $_GET['id'];
     <div class="section-header">
       <h1>Data Detail Monitoring</h1>
     </div>
-   
+    <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
+      Tambah Data
+    </button>
     <?php if (isset($_SESSION['message'])) { ?>
         <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
         <?= $_SESSION['message']?>
@@ -43,7 +45,7 @@ $id_kelas = $_GET['id'];
                 <th>Perkembangan</th>
                 <th>Tanggal</th>
                 <th>Nama Guru</th>
-              
+                <th class ="text-center">Action</th>
               </tr>
             </thead>
             <tbody>
@@ -58,7 +60,12 @@ $id_kelas = $_GET['id'];
                   <td><?= $row['perkembangan']?></td>
                   <td><?= $row['date_monitoring']?></td>
                   <td><?= $row['nama_users']?></td>
-                 
+                  <td class ="text-center"> 
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_monitoring'] ?>">
+                      <i class="fas fa-edit"></i>
+                    </button>
+                    <a href="<?= $base_url ?>proses_admin/data_monitoring/delete.php?id=<?= $row['id_monitoring'] ?>&id_kelas=<?= $row['id_kelas'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                  </td>
                 </tr>
               <?php } ?>
             </tbody>
