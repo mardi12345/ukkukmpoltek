@@ -15,7 +15,7 @@ $id_users = $_SESSION['id_users'];
 <div class="main-content">
   <section class="section">
     <div class="section-header">
-      <h1>Data Admin</h1>
+      <h1>Data Admin dan Ketua Organisasi</h1>
     </div>
     <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
       Tambah Data
