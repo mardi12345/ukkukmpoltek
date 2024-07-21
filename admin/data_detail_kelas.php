@@ -44,9 +44,8 @@ $id_kelas = $_GET['id'];
             <thead>
               <tr>
                 <th>No</th>
-                <th>Nama Murid</th>
+                <th>Nama Mahasiswa</th>
                 <th>Nama Kelas</th>
-                <th>Nama Kategori</th>
                 <th class ="text-center">Action</th>
               </tr>
             </thead>
@@ -60,7 +59,6 @@ $id_kelas = $_GET['id'];
                   <td><?= $no++ ?></td>
                   <td><?= $row['nama']?></td>
                   <td><?= $row['nama_kelas']?></td>
-                  <td><?= $row['nama_kategori']?></td>
                   <td class ="text-center"> 
                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_detail_kelas'] ?>">
                       <i class="fas fa-edit"></i>
