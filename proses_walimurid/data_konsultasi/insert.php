@@ -61,7 +61,8 @@ if (isset($_POST['insert'])) {
         </button>
       </div>
       <div class="modal-body">
-        Akun Anda belum terverifikasi ke tingkat tertentu, silahkan hubungi admin.
+        Mohon Maaf Rekan Mahasiswa Anda belum dapat mendaftar UKK/UKM secara Resmi <br> 
+        Karena Akun Anda belum terverifikasi ke tingkat/kelas tertentu, silahkan tunggu verifikasi dari Ketua Organisasi atau Admin.
       </div>
       <div class="modal-footer">
         <button id="closeModal" type="button" class="btn btn-secondary">Tutup</button>
