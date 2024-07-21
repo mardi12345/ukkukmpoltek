@@ -88,7 +88,7 @@ $id_users = $_SESSION['id_users'];
           </div>
           <div class="form-group">
             <label for="">Deskripsi</label>
-            <textarea name="deskripsi" id="" cols="30" rows="10" class = "form-control" required></textarea>
+            <textarea name="deskripsi" id="" cols="30" rows="10" class = "form-control summernote" required></textarea>
           </div>
           <div class="form-group">
             <label for="">Gambar</label>
@@ -127,7 +127,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             </div>
             <div class="form-group">
                 <label for="">Deskripsi</label>
-                <textarea name="deskripsi" id="" cols="30" rows="10" class = "form-control" required value = "<?= $row['deskripsi']?>"><?= $row['deskripsi'] ?></textarea>
+                <textarea name="deskripsi" id="" cols="30" rows="10" class = "form-control summernote" required value = "<?= $row['deskripsi']?>"><?= $row['deskripsi'] ?></textarea>
             </div>
             <div class="form-group">
               <label for="">Gambar</label>

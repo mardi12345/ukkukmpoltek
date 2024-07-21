@@ -17,7 +17,9 @@ $id_kategori = $_SESSION['id_kategori'];
     <div class="section-header">
       <h1>Data kategori</h1>
     </div>
-
+    <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#tambahdata">
+      Tambah Data
+    </button>
     <?php if (isset($_SESSION['message'])) { ?>
         <div class="alert alert-<?= $_SESSION['message_type']?> alert-dismissible fade show" role="alert">
         <?= $_SESSION['message']?>
@@ -35,7 +37,7 @@ $id_kategori = $_SESSION['id_kategori'];
               <tr>
                 <th>No</th>
                 <th>Nama Kategori</th>
-             
+                <th class ="text-center">Action</th>
               </tr>
             </thead>
             <tbody>
@@ -47,7 +49,12 @@ $id_kategori = $_SESSION['id_kategori'];
                 <tr>
                   <td><?= $no++ ?></td>
                   <td><?= $row['nama_kategori']?></td>
-                 
+                  <td class ="text-center"> 
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_kategori'] ?>">
+                      <i class="fas fa-edit"></i>
+                    </button>
+                    <a href="<?= $base_url ?>proses_admin/data_kategori/delete.php?id=<?= $row['id_kategori'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                  </td>
                 </tr>
               <?php } ?>
             </tbody>

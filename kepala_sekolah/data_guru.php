@@ -40,7 +40,7 @@ $id_users = $_SESSION['id_users'];
                 <th>Username</th>
                 <th>No Telepon</th>
                 <th>Email</th>
-                <th>alamat_users</th>
+                <th>Alamat</th>
                 <th class ="text-center">Action</th>
               </tr>
             </thead>
@@ -61,7 +61,7 @@ $id_users = $_SESSION['id_users'];
                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_users'] ?>">
                       <i class="fas fa-edit"></i>
                     </button>
-                    <a href="<?= $base_url ?>proses_kepala_sekolah/data_guru/delete.php?id=<?= $row['id_users'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                    <a href="<?= $base_url ?>proses_admin/data_guru/delete.php?id=<?= $row['id_users'] ?>" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
                   </td>
                 </tr>
               <?php } ?>
@@ -84,7 +84,7 @@ $id_users = $_SESSION['id_users'];
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form action="<?= $base_url ?>proses_kepala_sekolah/data_guru/insert.php" method="post" enctype='multipart/form-data'>
+      <form action="<?= $base_url ?>proses_admin/data_guru/insert.php" method="post" enctype='multipart/form-data'>
       <div class="modal-body">
           <div class="form-group">
             <label for="">Nama</label>
@@ -134,7 +134,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <form action="<?= $base_url ?>proses_kepala_sekolah/data_guru/update.php" method="post" enctype='multipart/form-data'>
+      <form action="<?= $base_url ?>proses_admin/data_guru/update.php" method="post" enctype='multipart/form-data'>
         <div class="modal-body">
             <input type="hidden" name="id_users" id="" class="form-control" value = "<?= $row['id_users'] ?>">
             <div class="form-group">
