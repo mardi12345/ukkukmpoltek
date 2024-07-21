@@ -36,7 +36,7 @@ $id_murid = $_SESSION['id_murid'];
             <thead>
               <tr>
                 <th>No</th>
-                <th>Nik</th>
+                <th>NIM</th>
                 <th>Nama</th>
                 <th>Jenis Kelamin</th>
                 <th>TTL</th>
@@ -94,7 +94,7 @@ $id_murid = $_SESSION['id_murid'];
       <form action="<?= $base_url ?>proses_admin/data_murid/insert.php" method="post" enctype='multipart/form-data'>
       <div class="modal-body">
         <div class="form-group">
-            <label for="">Nik</label>
+            <label for="">NIM</label>
             <input type="number" name="nik" id="" class="form-control" required>
           </div>
           <div class="form-group">
@@ -172,7 +172,7 @@ while($row = mysqli_fetch_assoc($result_tasks)) { ?>
             <div class="modal-body">
                 <input type="hidden" name="id_murid" id="" class="form-control" value = "<?= $row['id_murid'] ?>">
                 <div class="form-group">
-                <label for="">Nik</label>
+                <label for="">NIM</label>
                 <input type="number" name="nik" id="" class="form-control" required value = "<?= $row['nik']?>">
             </div>
             <div class="form-group">
