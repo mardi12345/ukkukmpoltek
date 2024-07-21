@@ -109,19 +109,6 @@ $month  = date('m');
                         <a href="<?= $base_url ?>guru/data_monitoring.php">
                         <i class="fas fa-bookmark"></i>
                     </div>
-                    <div class="card-wrap">
-                        <div class="card-header">
-                        <h4>Jumlah Monitoring</h4>
-                        </div>
-                        <?php 
-                        $query_jumlah = "SELECT * FROM tbl_monitoring where id_users = $id_users";
-                        $result_jumlah = mysqli_query($conn, $query_jumlah);
-                        $jumlah = mysqli_num_rows($result_jumlah); ?>
-                        <div class="card-body">
-                        <?= $jumlah?>
-                        </div>
-                    </div></a>
-                    </div>
                 </div>
             </div>
         </div>
