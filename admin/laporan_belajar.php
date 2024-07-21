@@ -15,7 +15,7 @@ $id_kelas = $_SESSION['id_kelas'];
 <div class="main-content">
   <section class="section">
     <div class="section-header">
-      <h1>Data Laporan Belajar</h1>
+      <h1>Data Laporan Pertingkat</h1>
     </div>
 
     <?php if (isset($_SESSION['message'])) { ?>
