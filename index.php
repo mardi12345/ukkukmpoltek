@@ -22,17 +22,17 @@ $id_wali_murid = $_SESSION['id_wali_murid'];
  <div id="home" class="slider-area">
     <div class="bend niceties preview-2">
       <div id="ensign-nivoslider" class="slides">
-        <img src="<?= $base_url?>assets_wali/img/slider/poltek.png" alt="" title="#slider-direction-1" />
-        <img src="<?= $base_url?>assets_wali/img/slider/pataka.png" alt="" title="#slider-direction-2" />
+        <img src="<?= $base_url?>assets_wali/img/slider/poltek.jpg" alt="" title="#slider-direction-1" />
+        <img src="<?= $base_url?>assets_wali/img/slider/pataka.jpg" alt="" title="#slider-direction-2" />
         <img src="<?= $base_url?>assets_wali/img/slider/drumband.jpg" alt="" title="#slider-direction-3" />
-        <img src="<?= $base_url?>assets_wali/img/slider/padus.png" alt="" title="#slider-direction-4" />
-        <img src="<?= $base_url?>assets_wali/img/slider/rohis.png" alt="" title="#slider-direction-5" />
-        <img src="<?= $base_url?>assets_wali/img/slider/rokris.png" alt="" title="#slider-direction-6" />
-        <img src="<?= $base_url?>assets_wali/img/slider/volley.png" alt="" title="#slider-direction-7" />
-        <img src="<?= $base_url?>assets_wali/img/slider/bultang.png" alt="" title="#slider-direction-8" />
-        <img src="<?= $base_url?>assets_wali/img/slider/futsal.png" alt="" title="#slider-direction-9" />
-        <img src="<?= $base_url?>assets_wali/img/slider/kopma.png" alt="" title="#slider-direction-10" />
-        <img src="<?= $base_url?>assets_wali/img/slider/basket.png" alt="" title="#slider-direction-11" />
+        <img src="<?= $base_url?>assets_wali/img/slider/padus.jpg" alt="" title="#slider-direction-4" />
+        <img src="<?= $base_url?>assets_wali/img/slider/rohis.jpg" alt="" title="#slider-direction-5" />
+        <img src="<?= $base_url?>assets_wali/img/slider/rokris.jpg" alt="" title="#slider-direction-6" />
+        <img src="<?= $base_url?>assets_wali/img/slider/volley.jpg" alt="" title="#slider-direction-7" />
+        <img src="<?= $base_url?>assets_wali/img/slider/bultang.jpg" alt="" title="#slider-direction-8" />
+        <img src="<?= $base_url?>assets_wali/img/slider/futsal.jpg" alt="" title="#slider-direction-9" />
+        <img src="<?= $base_url?>assets_wali/img/slider/kopma.jpg" alt="" title="#slider-direction-10" />
+        <img src="<?= $base_url?>assets_wali/img/slider/basket.jpg" alt="" title="#slider-direction-11" />
       </div>
 
       <!-- direction 1 -->
