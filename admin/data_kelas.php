@@ -37,9 +37,7 @@ $id_kelas = $_SESSION['id_kelas'];
               <tr>
                 <th>No</th>
                 <th>Nama Kelas</th>
-                <th>Nama Kategori</th>
                 <th>Periode</th>
-                <th>Nama Wali</th>
                 <th class ="text-center">Action</th>
               </tr>
             </thead>
@@ -52,9 +50,7 @@ $id_kelas = $_SESSION['id_kelas'];
                 <tr>
                   <td><?= $no++ ?></td>
                   <td><?= $row['nama_kelas']?></td>
-                  <td><?= $row['nama_kategori']?></td>
                   <td><?= $row['periode']?></td>
-                  <td><?= $row['nama_users']?></td>
                   <td class ="text-center"> 
                     <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#updatedata<?= $row['id_kelas'] ?>">
                       <i class="fas fa-edit"></i>
